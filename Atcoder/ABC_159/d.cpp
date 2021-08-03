@@ -49,7 +49,7 @@ int32_t main()
 	#endif
 
 	cin >> N;
-	unordered_map<int, int>  mp, mp1;
+	unordered_map<int, int>  mp1;
 	set<int> distinctElements;
 
 	for(int i = 1; i <= N; i++)
@@ -66,9 +66,6 @@ int32_t main()
 		cnt += i - 1;
 		B[i] = cnt;
 	}
-
-	for(int i = 0; i <= N; i++)
-		mp[B[i]] = i;
 
 	int ans = 0;
 	for(auto it : distinctElements)
