@@ -47,3 +47,10 @@ int main()
     }
 }
   // } Driver Code Ends
+
+/*
+
+Analysis:
+Direct application of Kadane's, except for handling the case when all array elements are <0.
+
+*/

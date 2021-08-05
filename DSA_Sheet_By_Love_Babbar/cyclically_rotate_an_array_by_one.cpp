@@ -34,3 +34,10 @@ void rotate(int arr[], int n)
         arr[i+1]=arr[i];
     arr[0]=x;
 }
+
+/*
+
+Analysis:
+Simple solution, easy enough to AC in one go. If you can't, you better brush up some basics.
+
+*/

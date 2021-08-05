@@ -51,3 +51,10 @@ int main() {
 }
 
   // } Driver Code Ends
+
+/*
+
+Analysis:
+Take the count of 0,1,2 and place each individully in the array. Priority Queue should AC too.
+
+*/
