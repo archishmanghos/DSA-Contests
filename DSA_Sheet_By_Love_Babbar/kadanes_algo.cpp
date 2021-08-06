@@ -1,56 +1,25 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-
- // } Driver Code Ends
-class Solution{
-    public:
-    // arr: input array
-    // n: size of array
-    //Function to find the sum of contiguous subarray with maximum sum.
-    int maxSubarraySum(int arr[], int n){
-        
-        int sumTillNow=0,ans=0,maxx=-100000000;
-        for(int i=0; i<n; i++)
-        {
-            sumTillNow+=arr[i];
-            maxx=max(arr[i],maxx);
-            ans=max(ans,sumTillNow);
-            sumTillNow=max((int)0,sumTillNow);
-        }
-        if(maxx<0)
-            return maxx;
-        return ans;
-    }
-};
-
-// { Driver Code Starts.
-
-int main()
-{
-    int t,n;
-    
-    cin>>t; //input testcases
-    while(t--) //while testcases exist
+int maxSubarraySum(int arr[], int n)
+{        
+    int sumTillNow = 0, ans = 0, maxx = -100000000;
+    for(int i = 0; i < n; i++)
     {
-        
-        cin>>n; //input size of array
-        
-        int a[n];
-        
-        for(int i=0;i<n;i++)
-            cin>>a[i]; //inputting elements of array
-            
-        Solution ob;
-        
-        cout << ob.maxSubarraySum(a, n) << endl;
+        sumTillNow += arr[i];
+        maxx = max(arr[i], maxx);
+        ans = max(ans, sumTillNow);
+        sumTillNow = max((int)0, sumTillNow);
     }
+    if(maxx < 0)
+        return maxx;
+    return ans;
 }
-  // } Driver Code Ends
 
 /*
 
 Analysis:
+
+Time Complexity: O(N)
+Space Complexity: O(1)
+
 Direct application of Kadane's, except for handling the case when all array elements are <0.
 
 */
