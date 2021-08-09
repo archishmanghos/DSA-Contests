@@ -1,4 +1,4 @@
-// Created: 01-08-2021 20:12:47
+// Created: 09-08-2021 21:02:54
 
 #include <bits/stdc++.h>
 #define int long long
@@ -37,39 +37,70 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int T, N;
-string S1, S2;
+int T, N, K;
+
+const int mod = 1e9 + 7;
+
+int add(int a, int b, int p = mod)
+{
+	int c = a + b;
+	if (c >= p)
+		c -= p;
+	return c;
+}
+
+int sub(int a, int b, int p = mod)
+{
+	int c = a - b;
+	if (c < 0)
+		c += p;
+	return c;
+}
+
+int mul(int a, int b, int p = mod)
+{
+	return (a * (int)1 * b) % p;
+}
 
 void solve()
 {
-	cin >> N >> S1 >> S2;
+    cin >> N >> K;
 
-	int ans = 0;
+    int ans1 = 0, ans2 = 1;
+    int arr[5] = {1,2,3,4,5};
 
-	for(int i = 0; i < N; i++)
-	{
-		if(S2[i] == '1')
-		{	
-			if(S1[i] == '0')
-			{
-				ans += 1;
-				S2[i] = '0';
-			}
-			else if((i - 1) >= 0 && S1[i - 1] == '1')
-			{
-				ans += 1;
-				S2[i] = '0';
-			}
-			else if((i + 1 < N) && (S1[i + 1] == '1'))
-			{
-				S1[i + 1] = '0';
-				S2[i] = '0';
-				ans += 1;
-			}
-		}
-	}
+    for(auto it: arr)
+    	ans2 &= it;
+    for(auto it : arr)
+    	ans1 ^= it;
+    cout << ans2 << ' ' << ans1 << '\n';
 
-	cout << ans << '\n';
+    // vector<int> v;
+    // v.push_back(1);
+    // v.push_back(1);
+    // for(int i = 1; i <= 3; i++)
+    // 	v.push_back(i);
+
+    // int cnt = 0;
+    // do{
+    // 	cnt += 1;
+    // } while(next_permutation(v.begin(), v.end()));
+
+    // cout<<cnt;
+
+    // int ans = 1;
+
+    // if(K == 0)
+    // {
+    // 	cout << 1 << '\n';
+    // 	return;
+    // }
+
+    // for(int i = 1; i <= N; i++)
+    // 	ans = mul(ans, 2);
+
+    // ans = sub(ans, N);
+    // cout << ans << '\n';
 }
 
 int32_t main()
