@@ -1,4 +1,4 @@
-// Created: 09-08-2021 21:02:54
+// Created: 10-08-2021 20:44:01
 
 #include <bits/stdc++.h>
 #define int long long
@@ -66,41 +66,49 @@ void solve()
 {
     cin >> N >> K;
 
-    int ans1 = 0, ans2 = 1;
-    int arr[5] = {1,2,3,4,5};
+    int a = 1, b = 1;
+    for(int i = 1; i <= N; i++)
+        a = mul(a, 2);
+    for(int i = 1; i <= N - 1; i++)
+        b = mul(b, 2);
 
-    for(auto it: arr)
-    	ans2 &= it;
-    for(auto it : arr)
-    	ans1 ^= it;
-    cout << ans2 << ' ' << ans1 << '\n';
+    int c = add(b, 1);
+    b = sub(b, 1);
 
-    // vector<int> v;
-    // v.push_back(1);
-    // v.push_back(1);
-    // for(int i = 1; i <= 3; i++)
-    // 	v.push_back(i);
+    if(N & 1)
+    {
+        int c1 = 1;
+        for(int i = 1; i <= K; i++)
+            c1 = mul(c1, c);
+        cout << c1 << '\n';
+    }
+    else
+    {
+        int ans = 0;
+        int b1 = 1;
+        for(int i = 1; i <= K; i++)
+            b1 = mul(b1, b);
+        ans = add(ans, b1);
 
-    // int cnt = 0;
-    // do{
-    // 	cnt += 1;
-    // } while(next_permutation(v.begin(), v.end()));
+        b1 = 1;
+        int a1 = 1, arr[K] = {0};
+        arr[0] = 1;
+        for(int i = 1; i <= K - 1; i++)
+        {
+            a1 = mul(a1, a);
+            arr[i] = a1;
+        }
 
-    // cout<<cnt;
+        for(int i = 1; i <= K; i++)
+        {
+            int temp = mul(arr[K - i], b1);
+            ans = add(ans, temp);
 
-    // int ans = 1;
+            b1 = mul(b1, b);
+        }
 
-    // if(K == 0)
-    // {
-    // 	cout << 1 << '\n';
-    // 	return;
-    // }
-
-    // for(int i = 1; i <= N; i++)
-    // 	ans = mul(ans, 2);
-
-    // ans = sub(ans, N);
-    // cout << ans << '\n';
+        cout << ans << '\n';
+    }
 }
 
 int32_t main()
