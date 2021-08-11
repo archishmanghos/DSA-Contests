@@ -1,4 +1,4 @@
-// Created: 11-08-2021 11:21:39
+// Created: 11-08-2021 12:18:40
 
 #include <bits/stdc++.h>
 #define int long long
@@ -37,7 +37,7 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int Q, type, X;
+int A, B;
 
 int32_t main()
 {
@@ -48,28 +48,9 @@ int32_t main()
 	    freopen("error.txt", "w", stderr);
 	#endif
 
-	priority_queue<int, vector<int>, greater<int>> pq;
-	int sum = 0;
+	cin >> A >> B;
 
-	cin >> Q;
-	while(Q--)
-	{
-		cin >> type;
-		if(type == 3)
-		{
-			int ans = pq.top();
-			cout << ans + sum << '\n';
-			pq.pop();
-		}
-		else
-		{
-			cin >> X;
-			if(type == 1)
-				pq.push(X - sum);
-			else
-				sum += X;
-		}
-	}
+	cout << (A == 0 ? "Silver" : B == 0 ? "Gold" : "Alloy");
 
     return 0;
 }

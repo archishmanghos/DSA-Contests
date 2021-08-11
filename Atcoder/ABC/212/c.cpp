@@ -1,4 +1,4 @@
-// Created: 11-08-2021 11:21:39
+// Created: 11-08-2021 12:07:14
 
 #include <bits/stdc++.h>
 #define int long long
@@ -37,7 +37,7 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int Q, type, X;
+int N, M, A[mxN], B[mxN];
 
 int32_t main()
 {
@@ -48,28 +48,31 @@ int32_t main()
 	    freopen("error.txt", "w", stderr);
 	#endif
 
-	priority_queue<int, vector<int>, greater<int>> pq;
-	int sum = 0;
+	cin >> N >> M;
+	for(int i = 1; i <= N; i++)
+		cin >> A[i];
+	for(int i = 1; i <= M; i++)
+		cin >> B[i];
 
-	cin >> Q;
-	while(Q--)
+	sort(A + 1, A + N + 1);
+	sort(B + 1, B + M + 1);
+
+	int i = 1, j = 1, ans = INF;
+	while(i <= N && j <= M)
 	{
-		cin >> type;
-		if(type == 3)
+		ans = min(abs(A[i] - B[j]), ans);
+		if(i + 1 <= N && j + 1 <= M)
 		{
-			int ans = pq.top();
-			cout << ans + sum << '\n';
-			pq.pop();
+			if(abs(A[i + 1] - B[j]) <= abs(A[i] - B[j + 1]))
+				i += 1;
+			else
+				j += 1;
 		}
 		else
-		{
-			cin >> X;
-			if(type == 1)
-				pq.push(X - sum);
-			else
-				sum += X;
-		}
+			break;
 	}
+
+	cout << ans;
 
     return 0;
 }

@@ -1,4 +1,4 @@
-// Created: 11-08-2021 11:21:39
+// Created: 11-08-2021 12:16:44
 
 #include <bits/stdc++.h>
 #define int long long
@@ -37,7 +37,7 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int Q, type, X;
+string S;
 
 int32_t main()
 {
@@ -48,27 +48,20 @@ int32_t main()
 	    freopen("error.txt", "w", stderr);
 	#endif
 
-	priority_queue<int, vector<int>, greater<int>> pq;
-	int sum = 0;
+	cin >> S;
+	string S1 = S;
 
-	cin >> Q;
-	while(Q--)
+	sort(S1.begin(), S1.end());
+
+	if(S1[0] == S1[3])
+		cout << "Weak";
+	else
 	{
-		cin >> type;
-		if(type == 3)
-		{
-			int ans = pq.top();
-			cout << ans + sum << '\n';
-			pq.pop();
-		}
-		else
-		{
-			cin >> X;
-			if(type == 1)
-				pq.push(X - sum);
-			else
-				sum += X;
-		}
+		bool ans = true;
+		for(int i = 1; i <= 3; i++)
+			ans &= (((S[i - 1] - '0') + 1) % 10 == (S[i] - '0'));
+
+		cout << (ans ? "Weak" : "Strong");
 	}
 
     return 0;
