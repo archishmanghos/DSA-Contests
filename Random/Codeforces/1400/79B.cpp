@@ -60,9 +60,6 @@ int32_t main()
 
 	sort(A.begin() + 1, A.begin() + K + 1, myComp);
 
-	// for(int i = 1; i <= K; i++)
-	// 	cout << A[i].first << ' ' << A[i].second << '\n';
-
 	string pick[3] = {"Carrots", "Kiwis", "Grapes"};
 	for(int i = 1; i <= T; i++)
 	{
