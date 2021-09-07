@@ -53,8 +53,6 @@ int32_t main()
 		for(int i = 0; i < N; i++)
 			cin >> arr[i];
 	
-		debugarr(arr, 0, N - 1)
-	
 		for(int i = 0; i < N; i++)
 		{
 			arr[i] *= 2;
