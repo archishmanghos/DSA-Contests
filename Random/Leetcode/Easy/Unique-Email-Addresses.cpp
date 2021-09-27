@@ -34,3 +34,12 @@ int numUniqueEmails(vector<string> &emails)
     int x = (int)ans.size();
     return x;
 }
+
+/*
+
+Time-Complexity: O(emails.size()*emails[i].size())
+Space-Complexity: O(emails.size()*emails[i].size())
+
+Easy implementation problem
+
+*/
