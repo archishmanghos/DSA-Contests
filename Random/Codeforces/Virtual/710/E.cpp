@@ -37,24 +37,6 @@ template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i :
 
 int N, X, Y, cache[mxN];
 
-int dp(int n)
-{
-	if(n == 0)
-		return 0;
-	if(cache[n] != -1)
-		return cache[n];
-	int ans = INF;
-
-	if(n == 1)
-		ans = dp(n - 1) + X;
-	else if(n % 2 == 0)
-		ans = min(dp(n / 2) + Y, dp(n - 1) + X);
-	else
-		ans = min(dp((n + 1) / 2) + X + Y, dp(n - 1) + X);
-
-	return cache[n] = ans;
-}
-
 int32_t main()
 {
     ios_base::sync_with_stdio(false);
