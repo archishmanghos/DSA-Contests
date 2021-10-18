@@ -50,7 +50,6 @@ int32_t main()
 	#endif
 
 	cin >> N >> M;
-	vector<int> index(N + 5, 0);
 	priority_queue<int, vector<int>, greater<int>> pq;
 
 	for(int i = 1; i <= M; i++)
@@ -92,9 +91,6 @@ int32_t main()
 
 		ans.push_back(node);
 	}
-
-	for(int i = 0; i < ans.size(); i++)
-		index[ans[i]] = i;
  	
  	if(ans.size() != N)
  	{
