@@ -49,21 +49,11 @@ void solve()
 
     sort(A.begin() + 1, A.begin() + (N *N) + 1);
 
-    int medianPos = (N + 2) / 2;
-    int minGoodness = A[medianPos], minCost = 0, cnt = 0, maxCost = 0;
-
-    for(int i = medianPos; i <= (medianPos *N); i += medianPos)
-    {
-        minCost += A[i];
-        cnt += 1;
-        if(cnt == N)
-            break;
-    }
-
+    int medianPos = (N + 2) / 2, maxCost = 0;
     for(int i = N * (medianPos - 1) + 1; i <= (medianPos *N); i++)
         maxCost += A[i];
 
-    int cost = maxCost, j = (N *medianPos) - 1, i = N * (medianPos - 1) + 1;
+    int cost = maxCost, i = N * (medianPos - 1) + 1, j = (N *medianPos) - 1;
 
     bool changeJ = true;
     while(i > medianPos)
