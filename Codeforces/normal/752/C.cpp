@@ -60,10 +60,8 @@ void solve()
 		}
 		else
 		{
-			debug(i)
 			if(cnt > 0)
 			{
-				debug(i)
 				if(A[i] % lcmm != 0)
 				{
 					cnt += 1;
