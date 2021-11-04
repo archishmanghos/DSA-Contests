@@ -44,6 +44,7 @@ void solve()
 
     if(N & 1)
     	A <<= 1;
+
     int ans = max(A, B) / min(A, B);
     cout << ans << '\n';
 }
