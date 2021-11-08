@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
-
-const int mxN = 2e5 + 5;
+const int mxN = 1005;
 const int INF = 1e18 + 7;
 
 #ifndef ONLINE_JUDGE
@@ -37,7 +36,7 @@ template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
 int N;
-vector<pair<double, double>> A(mxN);
+vector<pair<int, string>> A(mxN);
 
 int32_t main()
 {
@@ -50,50 +49,16 @@ int32_t main()
 
 	cin >> N;
 	for(int i = 1; i <= N; i++)
-		cin >> A[i].first >> A[i].second;
-
-	int left = 1, right = N;
-	double leftDistance = 0, rightDistance = 0;
-	for(int i = 1; i <= N; i++)
-		rightDistance += A[i].first;
-
-	while(left < right)
 	{
-		double distL = A[left].first;
-		double speedL = A[left].second;
-		double distR = A[right].first;
-		double speedR = A[right].second;
-
-		double timeL = ((double)distL / (double)speedL);
-		double timeR = ((double)distR / (double)speedR);
-
-		if(distL * speedR == distR *speedL)
-		{
-			leftDistance += 1.0 * distL;
-			rightDistance -= 1.0 * distR;
-			left += 1;
-			right -= 1;
-		}
-		else if(distL * speedR < distR *speedL)
-		{
-			leftDistance += 1.0 * distL;
-			double minused = 1.0 * ((double)(distL *speedR) / (double)speedL);
-			rightDistance -= minused;
-			A[right].first -= minused;
-			left += 1;
-		}
-		else
-		{
-			double minused = 1.0 * ((double)(distR *speedL) / (double)speedR);
-			leftDistance += minused;
-			rightDistance -= 1.0 * distR;
-			A[left].first -= minused;
-			right -= 1;
-		}
+		string S;
+		int X;
+		cin >> S >> X;
+		A[i].first = X;
+		A[i].second = S;
 	}
-	
-	double ans = (leftDistance + rightDistance) / 2.0;
-	cout << fixed << setprecision(9) << ans;
+
+	sort(A.begin() + 1, A.begin() + N + 1);
+	cout << A[N - 1].second;
 
     return 0;
 }

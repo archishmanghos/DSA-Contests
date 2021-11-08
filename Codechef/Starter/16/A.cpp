@@ -36,64 +36,36 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int N;
-vector<pair<double, double>> A(mxN);
+int T, N;
+string S;
+
+void solve()
+{
+    cin >> N >> S;
+    for(int i = 0; i < N - 1; i++)
+    {
+    	if((S[i] == 'L' && S[i + 1] == 'L')||(S[i] == 'R' && S[i + 1] == 'R'))
+    	{
+    		cout << "YES" << '\n';
+    		return;
+    	}
+    }
+
+    cout << "NO" << '\n';
+}
 
 int32_t main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-	#ifndef ONLINE_JUDGE
-	    freopen("error.txt", "w", stderr);
-	#endif
+    #ifndef ONLINE_JUDGE
+        freopen("error.txt", "w", stderr);
+    #endif
 
-	cin >> N;
-	for(int i = 1; i <= N; i++)
-		cin >> A[i].first >> A[i].second;
-
-	int left = 1, right = N;
-	double leftDistance = 0, rightDistance = 0;
-	for(int i = 1; i <= N; i++)
-		rightDistance += A[i].first;
-
-	while(left < right)
-	{
-		double distL = A[left].first;
-		double speedL = A[left].second;
-		double distR = A[right].first;
-		double speedR = A[right].second;
-
-		double timeL = ((double)distL / (double)speedL);
-		double timeR = ((double)distR / (double)speedR);
-
-		if(distL * speedR == distR *speedL)
-		{
-			leftDistance += 1.0 * distL;
-			rightDistance -= 1.0 * distR;
-			left += 1;
-			right -= 1;
-		}
-		else if(distL * speedR < distR *speedL)
-		{
-			leftDistance += 1.0 * distL;
-			double minused = 1.0 * ((double)(distL *speedR) / (double)speedL);
-			rightDistance -= minused;
-			A[right].first -= minused;
-			left += 1;
-		}
-		else
-		{
-			double minused = 1.0 * ((double)(distR *speedL) / (double)speedR);
-			leftDistance += minused;
-			rightDistance -= 1.0 * distR;
-			A[left].first -= minused;
-			right -= 1;
-		}
-	}
-	
-	double ans = (leftDistance + rightDistance) / 2.0;
-	cout << fixed << setprecision(9) << ans;
+    cin >> T;
+    while (T--)
+        solve();
 
     return 0;
 }

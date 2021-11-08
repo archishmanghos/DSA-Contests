@@ -35,27 +35,19 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-string S;
+int N, K;
 
-bool isValidPIN(int x)
+tuple<int, int, int> calculateABC(int sum1, int sum2, int sum3)
 {
-	bool present[10] = {false};
-	int y = x;
+	int aPlusB = sum1, bPlusC = sum2, aPlusC = sum3;
 
-    for(int i = 0; i < 4; i++)
-    {
-	    present[x % 10] = true;
-	    x /= 10;
-    }
-	for(int i = 0; i < S.size(); i++)
-	{
-		if(S[i] == 'o' && !present[i])
-			return false;
-		if(S[i] == 'x' && present[i])
-			return false;
-	}
+	int aMinusC = aPlusB - bPlusC;
+	int a = (aPlusC + aMinusC) / 2;
+	int c = (aPlusC - aMinusC) / 2;
+	int b = bPlusC - c;
 
-	return true;
+	tuple<int, int, int> ans = {a, b, c};
+	return ans;
 }
 
 int32_t main()
@@ -67,13 +59,58 @@ int32_t main()
 	    freopen("error.txt", "w", stderr);
 	#endif
 
-	cin >> S;
+	cin >> N >> K;
+	int ans[N + 5];
 
-	int ans = 0;
-	for(int i = 0; i <= 9999; i++)
-		ans += isValidPIN(i);
+	int temp = (N / 3) * 3;
+	int rem = N % 3;
 
-	cout << ans;
+	for(int i = 1; i <= temp; i += 3)
+	{
+		int aPlusB = 0, bPlusC = 0, aPlusC = 0;
+		pair<int, int> firstTerm, secondTerm, thirdTerm;
+
+		cout << "or" << ' ' << i << ' ' << i + 1 << endl;
+		cin >> firstTerm.first;
+		cout << "and" << ' ' << i << ' ' << i + 1 << endl;
+		cin >> firstTerm.second;
+		aPlusB = firstTerm.first + firstTerm.second;
+
+		cout << "or" << ' ' << i + 1 << ' ' << i + 2 << endl;
+		cin >> secondTerm.first;
+		cout << "and" << ' ' << i + 1 << ' ' << i + 2 << endl;
+		cin >> secondTerm.second;
+		bPlusC = secondTerm.first + secondTerm.second;
+
+		cout << "or" << ' ' << i << ' ' << i + 2 << endl;
+		cin >> thirdTerm.first;
+		cout << "and" << ' ' << i << ' ' << i + 2 << endl;
+		cin >> thirdTerm.second;
+		aPlusC = thirdTerm.first + thirdTerm.second;
+
+		tuple<int, int, int> abc = calculateABC(aPlusB, bPlusC, aPlusC);
+
+		ans[i] = get<0>(abc);
+		ans[i + 1] = get<1>(abc);
+		ans[i + 2] = get<2>(abc);
+	}
+
+	for(int i = 1; i <= rem; i++)
+	{
+		int aPlusB = 0;
+		pair<int, int> firstTerm;
+
+		cout << "or" << ' ' << temp << ' ' << temp + i << endl;
+		cin >> firstTerm.first;
+		cout << "and" << ' ' << temp << ' ' <<  temp + i << endl;
+		cin >> firstTerm.second;
+		aPlusB = firstTerm.first + firstTerm.second;
+
+		ans[temp + i] = aPlusB - ans[temp];
+	}
+
+	sort(ans + 1, ans + N + 1);
+	cout << "finish" << ' ' << ans[K] << endl;
 
     return 0;
 }

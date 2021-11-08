@@ -35,30 +35,27 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int T, N;
 string S;
 
-void solve()
+bool isValidPIN(int x)
 {
-    cin >> N >> S;
-    for(int i = 0; i < N; i++)
-    {
-    	if(i + 1 < N)
-    	{
-    		if(S[i] == 'a' && S[i + 1] == 'b')
-    		{
-    			cout << i + 1 << ' ' << i + 2 << '\n';
-    			return;
-    		}
-    		if(S[i] == 'b' && S[i + 1] == 'a')
-    		{
-    			cout << i + 1 << ' ' << i + 2 << '\n';
-    			return;
-    		}
-    	}
-    }
+	bool present[10] = {false};
+	int y = x;
 
-    cout << -1 << ' ' << -1 << '\n';
+    for(int i = 0; i < 4; i++)
+    {
+	    present[x % 10] = true;
+	    x /= 10;
+    }
+	for(int i = 0; i < S.size(); i++)
+	{
+		if(S[i] == 'o' && !present[i])
+			return false;
+		if(S[i] == 'x' && present[i])
+			return false;
+	}
+
+	return true;
 }
 
 int32_t main()
@@ -66,13 +63,17 @@ int32_t main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    #ifndef ONLINE_JUDGE
-        freopen("error.txt", "w", stderr);
-    #endif
+	#ifndef ONLINE_JUDGE
+	    freopen("error.txt", "w", stderr);
+	#endif
 
-    cin >> T;
-    while (T--)
-        solve();
+	cin >> S;
+
+	int ans = 0;
+	for(int i = 0; i <= 9999; i++)
+		ans += isValidPIN(i);
+
+	cout << ans;
 
     return 0;
 }

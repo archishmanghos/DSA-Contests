@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
-const int mxN = 1005;
+const int mxN = 2e5 + 5;
 const int INF = 1e18 + 7;
 
 #ifndef ONLINE_JUDGE
@@ -35,8 +35,7 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int N;
-vector<pair<int, string>> A(mxN);
+int N, A[mxN];
 
 int32_t main()
 {
@@ -48,17 +47,28 @@ int32_t main()
 	#endif
 
 	cin >> N;
+	set<int> s;
 	for(int i = 1; i <= N; i++)
 	{
-		string S;
-		int X;
-		cin >> S >> X;
-		A[i].first = X;
-		A[i].second = S;
+		cin >> A[i];
+		s.insert(A[i]);
 	}
 
-	sort(A.begin() + 1, A.begin() + N + 1);
-	cout << A[N - 1].second;
+	if(s.size() <= 2)
+		cout << "YES";
+	else if(s.size() == 3)
+	{
+		int x[3], j = 0;
+		for(int i : s)
+			x[j++] = i;
+
+		if((x[0] + x[2]) % 2 == 0)
+			cout << ((x[0] + x[2]) / 2 == x[1] ? "YES" : "NO");
+		else
+			cout << "NO";
+	}
+	else
+		cout << "NO";
 
     return 0;
 }

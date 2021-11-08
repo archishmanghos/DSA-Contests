@@ -35,38 +35,29 @@ template <class T> void _print(set <T> v){cerr << "[ ";for (T i : v){_print(i);c
 template <class T> void _print(multiset <T> v){cerr << "[ ";for (T i : v){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V> void _print(map <T, V> v){cerr << "[ ";for (auto i : v){_print(i);cerr << " ";}cerr << "]";}
 
-int N, A[mxN];
+int T, A, B;
+
+void solve()
+{
+    cin >> A >> B;
+    if(abs(A - B) % 2 == 0)
+    	cout << (A != B ? 2 : (A == 0) ? 0 : 1) << '\n';
+    else
+    	cout << -1 << '\n';
+}
 
 int32_t main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-	#ifndef ONLINE_JUDGE
-	    freopen("error.txt", "w", stderr);
-	#endif
+    #ifndef ONLINE_JUDGE
+        freopen("error.txt", "w", stderr);
+    #endif
 
-	cin >> N;
-	set<int> s;
-	for(int i = 1; i <= N; i++)
-	{
-		cin >> A[i];
-		s.insert(A[i]);
-	}
-
-	if(s.size() <= 2)
-		cout << "YES";
-	else if(s.size() == 3)
-	{
-		int x[3], j = 0;
-		for(int i : s)
-			x[j++] = i;
-
-		if((x[0] + x[2]) % 2 == 0)
-			cout << ((x[0] + x[2]) / 2 == x[1] ? "YES" : "NO");
-	}
-	else
-		cout << "NO";
+    cin >> T;
+    while (T--)
+        solve();
 
     return 0;
 }

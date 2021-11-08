@@ -48,9 +48,8 @@ void markAsUnVisited(vector<pair<int, int>> x)
 void markGrid(int n, int m)
 {	
 	int i = n - 1, j = m - 1;
-	int checkCnt = 1;
+	int checkCnt1 = 1, alreadyVisitedLeft = 0;
 
-	debug(checkCnt)
 	vector<pair<int, int>> newMarkings;
 	if(visited[n][m] == false)
 	{
@@ -65,23 +64,23 @@ void markGrid(int n, int m)
 		{
 			visited[i][j] = true;
 			newMarkings.push_back({i, j});
+			alreadyVisitedLeft = 0;
 		}
+		else
+			alreadyVisitedLeft += 1;
 		i -= 1;
 		j -= 1;
-		checkCnt += 1;
+		checkCnt1 += 1;
 	}
 
-	debug(n)
-	debug(m)
-	debug(checkCnt)
-	if(checkCnt <= K)
+	if(checkCnt1 <= K)
 	{
 		markAsUnVisited(newMarkings);
 		return;
 	}
 
 	i = n - 1, j = m + 1;
-	checkCnt = 1;
+	int checkCnt2 = 1, alreadyVisitedRight = 0;
 	if(visited[n][m] == false)
 	{
 		visited[n][m] = true;
@@ -95,17 +94,20 @@ void markGrid(int n, int m)
 		{
 			visited[i][j] = true;
 			newMarkings.push_back({i, j});
+			alreadyVisitedRight = 0;
 		}
+		else
+			alreadyVisitedRight += 1;
 		i -= 1;
 		j += 1;
-		checkCnt += 1;
+		checkCnt2 += 1;
 	}
 
-	debug(n)
-	debug(m)
-	debug(checkCnt)
+	if(checkCnt2 <= K)
+		markAsUnVisited(newMarkings);
 
-	if(checkCnt <= K)
+	int minnSizeOfTick = min(checkCnt1, checkCnt2);
+	if((checkCnt1 - minnSizeOfTick > alreadyVisitedLeft) || (checkCnt2 - minnSizeOfTick > alreadyVisitedRight))
 		markAsUnVisited(newMarkings);
 }
 
