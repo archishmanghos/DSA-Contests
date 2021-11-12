@@ -42,7 +42,7 @@ void solve()
 {
     cin >> A >> B >> C;
     int dev = abs(A + B - 2 * C);
-    cout << (dev % 3 == 0 ? 0 : 1) << '\n';
+    cout << (dev % 3 ? 1 : 0) << '\n';
 }
 
 int32_t main()
