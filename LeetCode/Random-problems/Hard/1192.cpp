@@ -9,7 +9,7 @@ void dfs(int node, int parent, vector<bool> &visited, vector<int> &tin, vector<i
         if(child == parent)
             continue;
         if(visited[child])
-            low[node] = min(low[node], low[child]);
+            low[node] = min(low[node], tin[child]);
         else
         {
             dfs(child, node, visited, tin, low, timer, adj, ans);
