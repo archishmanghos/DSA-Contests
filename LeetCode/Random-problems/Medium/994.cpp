@@ -3,50 +3,48 @@ int orangesRotting(vector<vector<int>> &grid)
     int ans = 0;
     int n = grid.size();
     int m = grid[0].size();
-    while(1)
+    int dx[4] = {0, 1, 0, -1};
+    int dy[4] = {1, 0, -1, 0};
+
+    queue<pair<int, int>> q;
+    for(int i = 0; i < n; i++)
     {
-        int newlyRotten = 0;
-        int grid2[n][m];
-        for(int i = 0; i < n; i++)
-            for(int j = 0; j < m; j++)
-                grid2[i][j] = grid[i][j];
-        for(int i = 0; i < n; i++)
+        for(int j = 0; j < m; j++)
         {
-            for(int j = 0; j < m; j++)
+            if(grid[i][j] == 2)
+                q.push({i, j});
+        }
+    }
+
+    while(!q.empty())
+    {
+        int nowSquares = q.size();
+        bool squarePresent = false;
+        while(nowSquares--)
+        {
+            pair<int, int> square = q.front();
+            q.pop();
+
+            for(int i = 0; i < 4; i++)
             {
-                if(grid[i][j] == 2)
+                pair<int, int> adjacentSquare = {square.first + dx[i], square.second + dy[i]};
+                if(adjacentSquare.first >= 0 && adjacentSquare.first < n)
                 {
-                    if(i + 1 < n && grid[i + 1][j] == 1)
+                    if(adjacentSquare.second >= 0 && adjacentSquare.second < m)
                     {
-                        newlyRotten += 1;
-                        grid2[i + 1][j] = 2;
-                    }
-                    if(j + 1 < m && grid[i][j + 1] == 1)
-                    {
-                        newlyRotten += 1;
-                        grid2[i][j + 1] = 2;
-                    }
-                    if(i - 1 >= 0 && grid[i - 1][j] == 1)
-                    {
-                        newlyRotten += 1;
-                        grid2[i - 1][j] = 2;
-                    }
-                    if(j - 1 >= 0 && grid[i][j - 1] == 1)
-                    {
-                        newlyRotten += 1;
-                        grid2[i][j - 1] = 2;
+                        if(grid[adjacentSquare.first][adjacentSquare.second] == 1)
+                        {
+                            grid[adjacentSquare.first][adjacentSquare.second] = 2;
+                            squarePresent = true;
+                            q.push(adjacentSquare);
+                        }
                     }
                 }
             }
         }
-        for(int i = 0; i < n; i++)
-            for(int j = 0; j < m; j++)
-                grid[i][j] = grid2[i][j];
-        if(newlyRotten > 0)
-            ans += 1;
-        else
-            break;
+        ans += squarePresent == true;
     }
+
     for(int i = 0; i < n; i++)
     {
         for(int j = 0; j < m; j++)
@@ -55,5 +53,6 @@ int orangesRotting(vector<vector<int>> &grid)
                 return -1;
         }
     }
+
     return ans;
 }
