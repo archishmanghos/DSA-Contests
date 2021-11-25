@@ -5,29 +5,22 @@ using namespace std;
 const int mxN = 2e5 + 5;
 const int INF = 1e18 + 7;
 
-int N;
+int N, K, A;
 
 int32_t main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    cin >> N;
-
+    cin >> N >> K;
+    bool ans = false;
     for(int i = 1; i <= N; i++)
     {
-    	if(i & 1)
-    	{
-    		for(int j = 1; j <= 5; j++)
-    			cout << (i - 1) * 5 + j << ' ';
-    	}
-    	else
-    	{
-    		for(int j = 5; j >= 1; j--)
-    			cout << (i - 1) * 5 + j << ' ';
-    	}
-    	cout << '\n';
+    	cin >> A;
+    	ans |= A == K;
     }
+
+    cout << (ans ? 1 : -1);
 
     return 0;
 }

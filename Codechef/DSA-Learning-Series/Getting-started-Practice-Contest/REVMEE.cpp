@@ -5,7 +5,7 @@ using namespace std;
 const int mxN = 2e5 + 5;
 const int INF = 1e18 + 7;
 
-int N;
+int N, A[mxN];
 
 int32_t main()
 {
@@ -13,21 +13,11 @@ int32_t main()
     cin.tie(NULL);
 
     cin >> N;
-
     for(int i = 1; i <= N; i++)
-    {
-    	if(i & 1)
-    	{
-    		for(int j = 1; j <= 5; j++)
-    			cout << (i - 1) * 5 + j << ' ';
-    	}
-    	else
-    	{
-    		for(int j = 5; j >= 1; j--)
-    			cout << (i - 1) * 5 + j << ' ';
-    	}
-    	cout << '\n';
-    }
+    	cin >> A[i];
+
+    for(int i = N; i >= 1; i--)
+    	cout << A[i] << ' ';
 
     return 0;
 }

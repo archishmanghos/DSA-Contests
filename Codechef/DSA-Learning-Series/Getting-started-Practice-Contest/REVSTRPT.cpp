@@ -13,19 +13,12 @@ int32_t main()
     cin.tie(NULL);
 
     cin >> N;
-
     for(int i = 1; i <= N; i++)
     {
-    	if(i & 1)
-    	{
-    		for(int j = 1; j <= 5; j++)
-    			cout << (i - 1) * 5 + j << ' ';
-    	}
-    	else
-    	{
-    		for(int j = 5; j >= 1; j--)
-    			cout << (i - 1) * 5 + j << ' ';
-    	}
+    	for(int j = 1; j <= (N - i); j++)
+    		cout << ' ';
+    	for(int j = 1; j <= i; j++)
+    		cout << '*';
     	cout << '\n';
     }
 

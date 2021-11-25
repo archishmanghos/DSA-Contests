@@ -13,21 +13,20 @@ int32_t main()
     cin.tie(NULL);
 
     cin >> N;
+    set<int> ans;
 
-    for(int i = 1; i <= N; i++)
+    for(int i = 1; i * i <= N; i++)
     {
-    	if(i & 1)
+    	if(N % i == 0)
     	{
-    		for(int j = 1; j <= 5; j++)
-    			cout << (i - 1) * 5 + j << ' ';
+    		ans.insert(i);
+    		ans.insert(N / i);
     	}
-    	else
-    	{
-    		for(int j = 5; j >= 1; j--)
-    			cout << (i - 1) * 5 + j << ' ';
-    	}
-    	cout << '\n';
     }
+
+    cout << ans.size() << '\n';
+    for(int i : ans)
+    	cout << i << ' ';
 
     return 0;
 }
