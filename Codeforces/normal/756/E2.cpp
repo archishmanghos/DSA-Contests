@@ -91,12 +91,12 @@ void solve()
     {
         if(visited[leafNodes[i]])
         {
-            cout << "YES" << '\n';
+            cout << -1 << '\n';
             return;
         }
     }
 
-    cout << "NO" << '\n';
+    cout << ans << '\n';
     
 }
 
