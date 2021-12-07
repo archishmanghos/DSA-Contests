@@ -2,7 +2,7 @@
 
 /*The brute force is fairly normal, we just take a vector
 and store the positions where the matrix has 0. We then iterate
-over the matrix again, and whenever we find a zero, we traverse the row and column and make the cells in them0 too.*/
+over the matrix again, and whenever we find a zero, we traverse the row and column and make the cells in them 0 too.*/
 
 void setZeroes(vector<vector<int>> &matrix)
 {
