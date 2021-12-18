@@ -53,6 +53,5 @@ vector<int> findMinHeightTrees(int n, vector<vector<int>> &edges)
         ans.push_back(q.front());
         q.pop();
     }
-
     return ans;
 }
