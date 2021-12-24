@@ -1,5 +1,3 @@
-This should be the 24th of December.
-
 This should be the 25th of December.
 
 This should be the 26th of December.
