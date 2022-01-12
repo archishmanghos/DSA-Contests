@@ -15,6 +15,7 @@ void solve()
 
 	map<int, int> present;
 	vector<vector<int>> perm(N + 2);
+
 	for(int i = 1; i <= N; i++)
 	{
 		while(A[i] > 0)
@@ -56,8 +57,11 @@ void solve()
 		{
 			for(int j : perm[i])
 			{
-				if(!present[j])
+				if(!present[j] and !done)
+				{
 					present[j] = 1;
+					done = true;
+				}
 			}
 		}
 	}
