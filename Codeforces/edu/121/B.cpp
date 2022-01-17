@@ -46,7 +46,6 @@ void solve()
     }
     else
     {
-    	pair<int, int> index, minn = {INF, INF};
     	for(int i = N; i > 0; i--)
     	{
     		int a = S[i - 1] - '0';
