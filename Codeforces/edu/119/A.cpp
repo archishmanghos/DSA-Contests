@@ -6,15 +6,22 @@ const int mxN = 2e5 + 5;
 const int INF = 1e18 + 7;
 
 int T;
-string S;
 
 void solve()
 {
+    string S;
     cin >> S;
-    int cnt = 0;
-    for(char c : S)
-    	cnt += c == 'N';
-    cout << (cnt == 1 ? "NO" : "YES") << '\n';
+
+    int cntN = 0;
+    for(int i = 0; i < S.size(); i++){
+        cntN += S[i] == 'N';
+        if(cntN > 1){
+            cout << "YES" << '\n';
+            return;
+        }
+    }
+
+    cout << (cntN ? "NO" : "YES") << '\n';
 }
 
 int32_t main()

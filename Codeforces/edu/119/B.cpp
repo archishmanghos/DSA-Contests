@@ -5,27 +5,34 @@ using namespace std;
 const int mxN = 2e5 + 5;
 const int INF = 1e18 + 7;
 
-int T, W, H, A, K;
+int T;
 
 void solve()
 {
+    int W, H;
     cin >> W >> H;
-    int ans = 0;
-    for(int i = 1; i <= 4; i++)
-    {
-    	cin >> K;
-    	int maxDist = 0, minn;
-    	cin >> minn;
-    	for(int j = 2; j <= K; j++)
-    	{
-    		cin >> A;
-    		maxDist = max(maxDist, A - minn);
-    	}
-    	if(i <= 2)
-    		ans = max(ans, H *maxDist);
-    	else
-    		ans = max(ans, W *maxDist);
+    int ans = -INF;
+
+    for(int i = 1; i <= 2; i++){
+        int K, minn, maxx;
+        cin >> K;
+        cin >> minn;
+        for(int j = 2; j <= K; j++){
+            cin >> maxx;
+        }
+        ans = max(ans, (maxx - minn) * H);
     }
+
+    for(int i = 1; i <= 2; i++){
+        int K, minn, maxx;
+        cin >> K;
+        cin >> minn;
+        for(int j = 2; j <= K; j++){
+            cin >> maxx;
+        }
+        ans = max(ans, (maxx - minn) * W);
+    }
+
     cout << ans << '\n';
 }
 
