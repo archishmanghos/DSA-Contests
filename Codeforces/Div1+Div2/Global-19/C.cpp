@@ -21,14 +21,10 @@ void solve() {
     for (int i = 2; i <= N - 1; i++) {
         ans += (A[i] + 1) / 2;
     }
-    if (odd < N - 2) {
+    if (odd < N - 2 or oddGreaterThan1 > 0) {
         cout << ans << '\n';
     } else {
-        if (oddGreaterThan1 > 0) {
-            cout << ans << '\n';
-        } else {
-            cout << -1 << '\n';
-        }
+        cout << -1 << '\n';
     }
 }
 

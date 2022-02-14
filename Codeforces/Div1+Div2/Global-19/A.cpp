@@ -15,19 +15,13 @@ void solve() {
         cin >> A[i];
     }
 
-    vector<int> suffixMin(N + 2);
-    int minn = INF;
-    for (int i = N; i >= 1; i--) {
-        suffixMin[i] = min(minn, A[i]);
-        minn = min(minn, A[i]);
-    }
-
-    for (int i = 1; i <= N; i++) {
-        if (A[i] > suffixMin[i]) {
+    for (int i = 2; i <= N; i++) {
+        if (A[i] < A[i - 1]) {
             cout << "YES" << '\n';
             return;
         }
     }
+
     cout << "NO" << '\n';
 }
 
