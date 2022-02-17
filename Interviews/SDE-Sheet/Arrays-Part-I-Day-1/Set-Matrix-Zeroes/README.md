@@ -1,4 +1,4 @@
-brute, TC = O(N * M * (N + M)), SC = O(N*M)
+brute, TC = O(N x M x (N + M)), SC = O(N * M)
 
 The brute force is fairly normal, we just take a vector
 and store the positions where the matrix has 0. We then iterate
