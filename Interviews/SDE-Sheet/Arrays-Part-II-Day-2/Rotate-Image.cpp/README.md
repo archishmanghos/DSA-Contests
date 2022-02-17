@@ -1,1 +1,0 @@
-Transpose the matrix and reverse each row.
