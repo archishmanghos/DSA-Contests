@@ -1,9 +1,11 @@
 brute, TC = O(N * M * (N + M)), SC = O(N*M)
+
 The brute force is fairly normal, we just take a vector
 and store the positions where the matrix has 0. We then iterate
 over the matrix again, and whenever we find a zero, we traverse the row and column and make the cells in them 0 too.
 
 better brute, TC = O(N * M + N * M), SC = O(N + M)
+
 The brute method is bettered by taking 2 1-D arrays representing
 a dummy row and a dummy column. Whenever, we encounter
 a 0 in the cell, we update the i-th cell of the column matrix with 0
