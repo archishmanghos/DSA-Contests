@@ -13,3 +13,5 @@ We maintain a doubly-linked list and an unordered map.
 
 		-> If it's equal, we delete the LRU node, which is just before the tail node and insert the new Node after the head and insert the node in the hashmap.
 		-> If it isn't, we simply insert the new node after the head and insert the node in the hashmap.
+
+Runtime: 444 ms, Memory Usage: 181.5 MB
