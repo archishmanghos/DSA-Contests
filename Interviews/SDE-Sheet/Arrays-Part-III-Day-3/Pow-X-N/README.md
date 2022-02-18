@@ -7,5 +7,5 @@ Optimal Solution: TC = `O(logN)`, SC = `O(1)`
 
 `[NOTE: Take care of **integer overflows**, especially when the power is **odd**.]`
 
-Runtime: `0 ms`, faster than `100.00%`
+Runtime: `0 ms`, faster than `100.00%`<br>
 Memory Usage: `6 MB`, less than `44.00%`
