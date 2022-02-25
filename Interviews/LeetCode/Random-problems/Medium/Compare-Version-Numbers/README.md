@@ -4,5 +4,5 @@ Optimal Solution: TC = `O((N + M) x 9)`, SC = `O(9)`
 
 **NOTE: Check for Integer overflows while comparing.**
 
-Runtime: `0 ms`, faster than `100.00%`
+Runtime: `0 ms`, faster than `100.00%` <br>
 Memory Usage: `6.1 MB`, less than `95.20%`
