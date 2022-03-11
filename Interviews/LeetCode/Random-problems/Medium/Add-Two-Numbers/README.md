@@ -1,4 +1,4 @@
-My Solution: TC = O(N), SC = O(N)
+My Solution: TC = `O(N)`, SC = `O(N)`
 
 > We take a new linked list and just do the same as adding 2 numbers. <br>
 > We take care of the carry in each step and finally at the last, we also check if there is a carry left, if left, we need to create a new node and that's it. <br>
