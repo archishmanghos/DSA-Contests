@@ -1,0 +1,48 @@
+#include <bits/stdc++.h>
+
+#ifndef ONLINE_JUDGE
+
+#include <D:/archishmanghos/Practice/Online_Judges/archiDebug.h>
+
+#else
+#define debug(x)
+#endif
+
+#define int long long
+using namespace std;
+
+const int mxN = 2e5 + 5;
+const int INF = 1e18 + 7;
+
+int T, X, Y;
+
+void solve()
+{
+	cin >> X >> Y;
+	int ans = X * X + Y * Y;
+	int check = (int)sqrt(ans);
+	check = check * check;
+	if(X == 0 and Y == 0){
+		cout << 0 << '\n';
+	}else if(check == ans){
+		cout << 1 << '\n';
+	}else{
+		cout << 2 << '\n';
+	}
+}
+
+int32_t main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+	#ifndef ONLINE_JUDGE
+	    freopen("error.txt", "w", stderr);
+	#endif
+
+    cin >> T;
+    while (T--)
+        solve();
+
+    return 0;
+}
