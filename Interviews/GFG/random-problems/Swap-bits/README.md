@@ -6,6 +6,7 @@ We will swap with the method of swapping using a third variable. The third varia
 We transfer the bits of the segment [p1, p1 + n] to the third segment [20, 20 + n] using this: <br>
 > If the i-th bit is set, i.e, `x & (1 << i) != 0` we set the j-th bit using XOR operator ∀ i ∈ [p1, p1 + n] and ∀ j ∈ [20, 20 + n]. Setting the j-th bit means doing `x ^ (1 << j)`. <br>
 > If the i-th bit is not set, we don't do anything as the far away bits are already un-set. <br>
+>
 Next up, we transfer the bits of the segment [p2, p2 + n] to the segment [p1, p1 + n], since we have already transferred the bits of [p1, p1 + n] to the far position. <br>
 > If the i-th bit is set, i.e, `x & (1 << i) != 0` we set the j-th bit using OR operator ∀ i ∈ [p2, p2 + n] and ∀ j ∈ [p1, p1 + n]. Setting the j-th bit means doing `x | (1 << j)`. <br>
 > If the i-th bit is not set, we check if the j-th bit is set or not: <br>
