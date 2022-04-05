@@ -1,4 +1,4 @@
-Optimal Solution: TC = O(1), SC =O(1)
+Optimal Solution: TC = `O(1)`, SC = `O(1)`
 
 Some key observations: <br>
 > *Observation 1:* The available area to fit any number of 2x2 squares on any base is (Base - 2). <br>
@@ -20,3 +20,5 @@ Some key observations: <br>
 >>
 >
 Thus, finally, we can calculate how many squares we can fit on the base. Suppose the value is `N`. Now the number of squares will be the sum of all integers from [1 to N], which is `N x (N + 1) / 2`.
+
+Total Time Taken: `0.01/2.2`
