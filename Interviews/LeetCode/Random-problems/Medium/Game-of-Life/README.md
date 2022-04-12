@@ -1,4 +1,4 @@
-![](https://github.com/archishmanghos/DSA-Contests/blob/master/Interviews/LeetCode/Random-problems/Medium/Game-of-Life/carbon.png)
+![](https://github.com/archishmanghos/code-images/blob/master/Leetcode-289.png)
 
 Optimal Solution: TC = `O(N x M)`, SC = `O(1)`
 
