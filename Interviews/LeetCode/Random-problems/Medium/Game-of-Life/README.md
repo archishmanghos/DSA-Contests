@@ -1,3 +1,5 @@
+![]("D:\archishmanghos\Practice\Online_Judges\Interviews\LeetCode\Random-problems\Medium\Game-of-Life\carbon.png")
+
 Optimal Solution: TC = `O(N x M)`, SC = `O(1)`
 
 The idea of the problem is very easy, if we can use extra space. <br>
