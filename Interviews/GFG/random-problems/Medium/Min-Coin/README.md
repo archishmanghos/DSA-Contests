@@ -9,3 +9,7 @@ Inside the recursive function, we define the functions as, <br>
 $$
 F(amount) = \sum_{i = 1}^{n}{F(amount - nums[i])} \forall{{nums[i]} \leqslant {amount}}
 $$
+
+$$
+\sum_{i = 1}^{n}{(\bar{x} - x_i)^2}
+$$
