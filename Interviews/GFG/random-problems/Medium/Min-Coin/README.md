@@ -14,6 +14,6 @@ Total Time Taken: `0.02/4.6`
 
 <details><summary> Clear Code </summary> 
 
-[](https://github.com/archishmanghos/code-images/blob/master/GFG-Min-Coin.png)
+![](https://github.com/archishmanghos/code-images/blob/master/GFG-Min-Coin.png)
 
 </details>
