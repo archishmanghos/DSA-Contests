@@ -1,3 +1,5 @@
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 ![](https://github.com/archishmanghos/code-images/blob/master/GFG-Min-Coin.png)
 
 Optimal Solution: TC = O(N x amount), SC = O(amount)
