@@ -2,7 +2,7 @@ Optimal Solution: TC = `O(N x N)`, SC = `O(1)`
 
 We can observe a pattern in the spiral matrix. <br>
 First, we start traversing from the [0, 0]th cell to the right towards the [0, n - 1]th cell. <br>
-When we hit the last cell, we have to go down. Notice, if there was no condition and we could move freely, the only cell we could have moved is the down cell. <br>
+When we hit the last cell, we have to go down. Notice, if there was no condition and we could move freely, the only cell we could have moved is the down cell.
 <details><summary>Why?</summary>
 
 This is because, we cannot go top and right as we will move out of the grid. The only valid directions are left and down. There is no reason to visit left cell as we came from that cell only. Thus the only cell which is reasonable and valid to visit is the down cell.
