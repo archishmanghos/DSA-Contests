@@ -1,17 +1,15 @@
-<img src="https://render.githubusercontent.com/render/math?math=e^{i\pi}=-1">
-
 ![](https://github.com/archishmanghos/code-images/blob/master/GFG-Min-Coin.png)
 
-Optimal Solution: TC = O(N x amount), SC = O(amount)
+Optimal Solution: TC = `O(N x amount)`, SC = `O(amount)`
 
 We use dynamic programming to solve this problem. <br>
 We take the states as the amount left to be selected. <br>
 Inside the recursive function, we define the functions as, <br>
 
-$$
-F(amount) = \sum_{i = 1}^{n}{F(amount - nums[i])} \forall{{nums[i]} \leqslant {amount}}
-$$
+> F(amount) = Σ(amount - nums[i]) ⋁ (i ∈ N and nums[i] ≤ amount) <br>
+>
 
-$$
-\sum_{i = 1}^{n}{(\bar{x} - x_i)^2}
-$$
+We return a large value if the amount becomes less than 0, else if the amount becomes equal to 0, we return 0. <br>
+Finally, after the recursive function is over, we check if the value returned is very big, if it is, we return -1, else return the answer. <br>
+
+Total Time Taken: `0.02/4.6`
