@@ -15,7 +15,6 @@ ListNode *swapPairs(ListNode *head) {
         } else {
             break;
         }
-
     }
     return newHead->next;
 }
