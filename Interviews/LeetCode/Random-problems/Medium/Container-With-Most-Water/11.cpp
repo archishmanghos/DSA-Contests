@@ -9,5 +9,5 @@ int maxArea(vector<int> &height){
             j -= 1;
         }
     }
-    return ans;
+    return ans;   
 }
