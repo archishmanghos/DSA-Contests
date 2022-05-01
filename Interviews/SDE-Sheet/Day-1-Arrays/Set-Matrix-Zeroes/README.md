@@ -4,8 +4,6 @@
 
 **Ask the interviewer the range of the matrix elements. If they are small, we can change the matrix values to some un-reachable value and make matrix elements 0 in constant space.** <br>
 
-Optimal Solution: TC = `O(2 x (N x M))`, SC = `O(1)`
-
 <details><summary>Hints</summary>
 
 * Think about a `O(N + M)` solution. <br>
@@ -17,6 +15,8 @@ Optimal Solution: TC = `O(2 x (N x M))`, SC = `O(1)`
 
 
 <details><summary>Full Solution</summary>
+
+Optimal Solution: TC = `O(2 x (N x M))`, SC = `O(1)`
 
 * Treat the 1st row and 1st column as the dummy rows and columns. <br>
 * Maintain a flag variable. <br>
