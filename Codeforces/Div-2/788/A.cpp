@@ -29,7 +29,6 @@ void solve() {
     		A[i] *= -1;
     	}
     }
-
     for(int i = negative + 1; i <= N; i++){
     	if(A[i] < 0){
     		A[i] *= -1;
