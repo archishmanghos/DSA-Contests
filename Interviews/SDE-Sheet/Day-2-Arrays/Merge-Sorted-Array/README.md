@@ -5,7 +5,7 @@
 
 <details><summary>Hints</summary>
 
-* Think of an algorithm with O(N) Space. <br>
+* Think of an algorithm with `O(N)` Space. <br>
 * Now remove that space. Can you do something with insertion sort?<br>
 
 </details>
