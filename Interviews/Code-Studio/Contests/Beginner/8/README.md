@@ -1,3 +1,6 @@
+[Short Editorial](https://www.codingninjas.com/codestudio/campus/public/discussions/contests-and-hackathons/112)
+
+
 [Ninja And The Num](https://www.codingninjas.com/codestudio/contests/codestudio-beginner-contest-8/problems/19509)
 
 <details><summary>Solution</summary>
