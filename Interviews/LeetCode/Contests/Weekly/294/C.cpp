@@ -3,7 +3,7 @@ int minimumLines(vector<vector<int>>& stockPrices) {
     sort(stockPrices.begin(), stockPrices.end(), [](vector<int> &a, vector<int> &b){
        return a[0] < b[0];
     });
-    double preSlope;
+
     if(n == 1) return 0;
     int ans = 1;
     for(int i = 2; i < n; i++){
