@@ -52,7 +52,7 @@ Memory Usage: `13.6 MB`, less than `13.31%`<br>
 
 <details><summary>Optimal Solution</summary>
 
-Optimal Solution: TC ≈ `O(N)`, SC = `O(N)`
+Optimal Solution: TC = `O(N)`, SC = `O(N)`
 
 * Here we optimise the same Sub-Optimal Solution 2 further. <br>
 * Instead of moving the low pointer step by step, we can store the index of the last occurence of the current element. We can just shift the low pointer to the index juts after the last occurence. <br>
