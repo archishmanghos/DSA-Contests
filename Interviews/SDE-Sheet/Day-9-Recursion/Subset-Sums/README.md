@@ -1,6 +1,6 @@
 [Link to Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 
-[Link to problem on Leetcode](https://leetcode.com/problems/two-sum/)
+[Link to problem on Leetcode](https://practice.geeksforgeeks.org/problems/subset-sums2234/1)
 
 
 
