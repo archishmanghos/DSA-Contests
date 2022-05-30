@@ -14,3 +14,12 @@
 ![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/2288.png)
 
 </details>
+
+
+[2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)
+
+<details><summary>Solution</summary>
+
+![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/2290.png)
+
+</details>
