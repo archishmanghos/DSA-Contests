@@ -9,7 +9,6 @@ void combinationSum(int index, int target, vector<int> curSubset, vector<int> &v
         curSubset.pop_back();
     }
 }
-
 vector<vector<int>> combinationSum2(vector<int> &candidates, int target){
     sort(candidates.begin(), candidates.end());
     vector<vector<int>> ans;

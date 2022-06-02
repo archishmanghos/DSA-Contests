@@ -2,7 +2,7 @@
 
 #ifndef ONLINE_JUDGE
 
-#include <D:/archishmanghos/Practice/Online_Judges/archiDebug.h>
+#include </home/archishmanghosh/archishmanghos/practice/archidebug.h>
 
 #else
 #define debug(x)
@@ -25,7 +25,7 @@ void solve() {
     	sum += A;
     	s.insert(A);
     }
-
+    debug(s)
     if(sum % N == 0){
     	cout << (s.find(sum / N) != s.end() ? "YES" : "NO") << '\n';
     }else cout << "NO" << '\n';
