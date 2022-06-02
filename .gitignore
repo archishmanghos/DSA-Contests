@@ -1,6 +1,10 @@
+*.exe
 *.txt
-*.pdf
 *.in
+*.pdf
+*.zip
 testing.cpp
 OR-chi.cpp
 carbon.png
+!*.cpp
+!*.md
