@@ -19,7 +19,7 @@ int T, N, M;
 void solve() {
 	cin >> N >> M;
 	int ans = M * (M + 1) / 2;
-	if(N > 1) ans += ((N - 1) * (2 * M + N *M)) / 2;
+	if(N > 1) ans += ((N - 1) * (2 * M + N * M)) / 2; 
 
 	cout << ans << '\n';
 }
