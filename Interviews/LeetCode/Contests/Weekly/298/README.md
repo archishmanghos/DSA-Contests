@@ -11,7 +11,7 @@
 
 <details><summary>Solution</summary>
 
-![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/2309.png)
+![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/2310.png)
 
 </details>
 
@@ -20,6 +20,6 @@
 
 <details><summary>Solution</summary>
 
-![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/2309.png)
+![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/2311.png)
 
 </details>
