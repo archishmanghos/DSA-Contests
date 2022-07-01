@@ -43,8 +43,7 @@ Ie., we can create an array where the indices represent 0 boxes per unit, 1 boxe
 1. take the given data and sort it into the 1000 buckets. this is O(n) because we loop over the given data once.
 2. loop over the buckets backwards- so that we start at a higher boxes per unit to get as many units as possible. in each iteration:
 
-> - check if the current bucket has any values (isn't -1).
-> - if the bucket has a value, check if the truck has space enough for all the boxes. if yes, load up all units.
+> - Check if the truck has space enough for all the boxes. if yes, load up all units.
 > - if the truck hasn't enough space, load up only the units you can.
 >
 
