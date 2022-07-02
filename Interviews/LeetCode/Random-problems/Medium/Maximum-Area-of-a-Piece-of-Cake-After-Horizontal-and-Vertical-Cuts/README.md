@@ -33,7 +33,7 @@ We already know the height of each piece (step 1), now with each vertical cut, w
 4. Multiply those two max and take mod 10e7.
 5. Return the answer
 
-[Editorial Credits](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/discuss/661995/Do-you-like-visual-explanation-You-got-it.-%3A-)-With-2-code-variations.)
+[Editorial Credits](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/discuss/661995/Do-you-like-visual-explanation-You-got-it.-%3A-)
 
 
 Runtime: `112 ms`, faster than `37.93%`<br>
