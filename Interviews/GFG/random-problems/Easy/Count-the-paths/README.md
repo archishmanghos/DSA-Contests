@@ -12,7 +12,7 @@ Optimal Solution: TC = `O(2 ^ N)`, SC = `O(N)`
 - Run a DFS(Depth First Search) from the source node and visit all the paths leading from the source. 
 - Whenever we reach the destination increase the counter for the answer.
 
-[Editorial Credits](https://practice.geeksforgeeks.org/problems/count-the-paths4332/1#editorial)
+[Editorial Credits (Click on The Editorial Tab)](https://practice.geeksforgeeks.org/problems/count-the-paths4332/1#editorial)
 
 
 Total Time Taken: `0.01/1.33`<br>
