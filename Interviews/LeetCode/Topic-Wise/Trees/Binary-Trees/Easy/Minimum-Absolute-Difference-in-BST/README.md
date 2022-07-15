@@ -3,7 +3,7 @@
 
 <details><summary>Optimal Solution</summary>
 
-Optimal Solution: TC = `O(N)`, SC = `O(H + H) `
+Optimal Solution: TC = `O(N)`, SC = `O(H) `
 
 - We can use the idea of problem [173 Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) to avoid O(N) space. 
 - The idea is that inorder traversal results in sorted array and hence the minimum difference will always be between 2 adjacent elements of the in-order traversal of the BST. 
