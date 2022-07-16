@@ -26,7 +26,7 @@ I hope it is clear till now.
 
 
 This Method TLEs.
-
+</details>
 
 
 <details><summary>Optimal Solution</summary>
