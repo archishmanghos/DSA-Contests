@@ -2,11 +2,11 @@
 
 1. [Lec-1 Fibonacci Number at Leetcode](https://leetcode.com/problems/fibonacci-number/)
 
-<details><summary>Clean Optimised Code</summary>
-
-![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-1.png)
-
-</details>
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-1.png)
+> 
+> </details>
 
 2. [Lec-2 Climbing Stairs at Leetcode](https://leetcode.com/problems/climbing-stairs/)
 
