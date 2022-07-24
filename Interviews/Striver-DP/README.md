@@ -40,3 +40,11 @@
 > 
 > </details>
 
+6. [Lec-6 House Robber II at Leetcode](https://leetcode.com/problems/house-robber-ii/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-6.png)
+> 
+> </details>
+
