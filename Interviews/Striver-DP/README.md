@@ -56,3 +56,11 @@
 > 
 > </details>
 
+8. [Lec-8 Unique Paths at Leetcode](https://leetcode.com/problems/unique-paths/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-8.png)
+> 
+> </details>
+
