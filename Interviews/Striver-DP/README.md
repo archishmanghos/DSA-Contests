@@ -72,3 +72,10 @@
 > 
 > </details>
 
+10. [Lec-10 Minimum Path Sum at Leetcode](https://leetcode.com/problems/minimum-path-sum/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-10.png)
+> 
+> </details>
