@@ -64,3 +64,11 @@
 > 
 > </details>
 
+9. [Lec-9 Unique Paths II at Leetcode](https://leetcode.com/problems/unique-paths-ii/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-9.png)
+> 
+> </details>
+
