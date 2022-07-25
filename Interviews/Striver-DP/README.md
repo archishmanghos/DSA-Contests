@@ -48,3 +48,11 @@
 > 
 > </details>
 
+7. [Lec-7 Vacation at Atcoder](https://atcoder.jp/contests/dp/tasks/dp_c)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-7.png)
+> 
+> </details>
+
