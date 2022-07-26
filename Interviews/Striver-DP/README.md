@@ -87,3 +87,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-11.png)
 > 
 > </details>
+
+12. [Lec-12 Minimum Falling Path Sum at Leetcode](https://leetcode.com/problems/minimum-falling-path-sum/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-12.png)
+> 
+> </details>
