@@ -3,7 +3,7 @@ using namespace std;
 
 int32_t main() {
 
-    int n, ans = 100100; cin >> n;
+    int n, ans = 100100, dy[3] = { -1, 0, 1}; cin >> n;
     vector<vector<int>> matrix(n, vector<int>(n));
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
