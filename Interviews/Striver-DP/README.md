@@ -79,3 +79,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-10.png)
 > 
 > </details>
+
+11. [Lec-11 Triangle at Leetcode](https://leetcode.com/problems/triangle/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-11.png)
+> 
+> </details>
