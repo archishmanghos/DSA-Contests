@@ -95,3 +95,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-12.png)
 > 
 > </details>
+
+13. [Lec-13 Cherry Pickup II at Leetcode](https://leetcode.com/problems/cherry-pickup-ii/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-13.png)
+> 
+> </details>
