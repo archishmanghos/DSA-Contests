@@ -103,3 +103,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-13.png)
 > 
 > </details>
+
+14. [Lec-14 Subset Sum Equal To K at Code Studio](https://www.codingninjas.com/codestudio/problems/1550954)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/Code-Studio/1550954.png)
+> 
+> </details>
