@@ -119,3 +119,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-15.png)
 > 
 > </details>
+
+16. [Lec-16 Minimum Subset Sum Difference at Code Studio](https://www.codingninjas.com/codestudio/problems/842494)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-16.png)
+> 
+> </details>
