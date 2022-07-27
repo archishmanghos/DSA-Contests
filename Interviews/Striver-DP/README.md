@@ -108,6 +108,14 @@
 
 > <details><summary>Clean Optimised Code</summary>
 > 
-> ![](https://github.com/archishmanghos/code-images/blob/master/Code-Studio/1550954.png)
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-14.png)
+> 
+> </details>
+
+15. [Lec-15 Partition Equal Subset Sum at Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-15.png)
 > 
 > </details>
