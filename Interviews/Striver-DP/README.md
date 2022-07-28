@@ -143,3 +143,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-18.png)
 > 
 > </details>
+
+19. [Lec-19 0-1 KnapSack at Atcoder](https://atcoder.jp/contests/dp/tasks/dp_d)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-19.png)
+> 
+> </details>
