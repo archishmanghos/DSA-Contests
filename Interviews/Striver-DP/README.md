@@ -127,3 +127,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-16.png)
 > 
 > </details>
+
+17. [Lec-17 Subsets With Given Sum at Code Studio](https://www.codingninjas.com/codestudio/problems/3952532)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-17.png)
+> 
+> </details>
