@@ -135,3 +135,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-17.png)
 > 
 > </details>
+
+18. [Lec-18 Partitions With Given Difference at Code Studio](https://www.codingninjas.com/codestudio/problems/3751628)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-18.png)
+> 
+> </details>
