@@ -151,3 +151,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-19.png)
 > 
 > </details>
+
+20. [Lec-20 Coin Change at Leetcode](https://leetcode.com/problems/coin-change/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-20.png)
+> 
+> </details>
