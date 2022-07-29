@@ -159,3 +159,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-20.png)
 > 
 > </details>
+
+21. [Lec-21 Target Sum at Leetcode](https://leetcode.com/problems/target-sum/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-21.png)
+> 
+> </details>
