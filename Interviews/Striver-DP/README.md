@@ -200,3 +200,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-25.png)
 > 
 > </details>
+
+26. [Lec-26 Print LCS at Atcoder](https://atcoder.jp/contests/dp/tasks/dp_f)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-26.png)
+> 
+> </details>
