@@ -1,4 +1,5 @@
 ### Please try to solve the problems first before seeing the solution. This repository contains clean codes. Enjoy!
+#### If you are looking for codes to every approach, please check out my full [Striver's DP Series repositiory](https://github.com/archishmanghos/DSA-Functions/tree/master/Dynamic-Programming). Thanks!
 
 1. [Lec-1 Fibonacci Number at Leetcode](https://leetcode.com/problems/fibonacci-number/)
 
@@ -181,5 +182,13 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-23.png)
+> 
+> </details>
+
+24. [Lec-24 Rod cutting problem at Code Studio](https://www.codingninjas.com/codestudio/problems/800284)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-24.png)
 > 
 > </details>
