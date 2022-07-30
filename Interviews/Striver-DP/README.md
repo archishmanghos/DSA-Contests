@@ -192,3 +192,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-24.png)
 > 
 > </details>
+
+25. [Lec-25 Longest Common Subsequence at Code Studio](https://www.codingninjas.com/codestudio/problems/624879)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-25.png)
+> 
+> </details>
