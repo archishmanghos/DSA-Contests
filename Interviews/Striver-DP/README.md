@@ -175,3 +175,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-22.png)
 > 
 > </details>
+
+23. [Lec-23 Unbounded Knapsack at Code Studio](https://www.codingninjas.com/codestudio/problems/1215029)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-23.png)
+> 
+> </details>
