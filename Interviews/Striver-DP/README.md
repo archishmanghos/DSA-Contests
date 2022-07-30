@@ -167,3 +167,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-21.png)
 > 
 > </details>
+
+22. [Lec-22 Coin Change 2 at Leetcode](https://leetcode.com/problems/coin-change-2/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-22.png)
+> 
+> </details>
