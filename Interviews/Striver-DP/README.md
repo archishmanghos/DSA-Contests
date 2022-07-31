@@ -208,3 +208,11 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-26.png)
 > 
 > </details>
+
+27. [Lec-27 Longest Common Substring at Code Studio](https://www.codingninjas.com/codestudio/problems/1235207)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-27.png)
+> 
+> </details>
