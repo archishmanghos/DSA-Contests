@@ -1,6 +1,47 @@
 ### Please try to solve the problems first before seeing the solution. This repository contains clean codes. Enjoy!
 #### If you are looking for codes to every approach, please check out my full [Striver's DP Series repositiory](https://github.com/archishmanghos/DSA-Functions/tree/master/Dynamic-Programming). Thanks!
 
+<div align="center">
+   <table>
+      <thead>
+         <tr>
+            <th align="left"></th>
+            <th align="left"></th>
+            <th align="left"></th>
+            <th align="left"></th>
+            <th align="left"></th>
+            <th align="left"></th>
+            <th align="left"></th>
+            <th align="left"></th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td align="left"><a href="#1">Lec-1</a></td>
+            <td align="left"><a href="#B">B</a></td>
+            <td align="left"><a href="#C">C</a></td>
+            <td align="left"><a href="#D">D</a></td>
+            <td align="left"><a href="#E">E</a></td>
+            <td align="left"><a href="#F">F</a></td>
+            <td align="left"><a href="#G">G</a></td>
+            <td align="left"><a href="#H">H</a></td>
+         </tr>
+         <tr>
+            <td align="left"><a href="#1">Lec-1</a></td>
+            <td align="left"><a href="#B">B</a></td>
+            <td align="left"><a href="#C">C</a></td>
+            <td align="left"><a href="#D">D</a></td>
+            <td align="left"><a href="#E">E</a></td>
+            <td align="left"><a href="#F">F</a></td>
+            <td align="left"><a href="#G">G</a></td>
+            <td align="left"><a href="#H">H</a></td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+<h4 id="1">Lecture 1</h4>
+
 1. [Lec-1 Fibonacci Number at Leetcode](https://leetcode.com/problems/fibonacci-number/)
 
 > <details><summary>Clean Optimised Code</summary>
@@ -214,5 +255,13 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-27.png)
+> 
+> </details>
+
+28. [Lec-28 Longest Palindromic Subsequence at Leetcode](https://leetcode.com/problems/longest-palindromic-subsequence/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-28.png)
 > 
 > </details>
