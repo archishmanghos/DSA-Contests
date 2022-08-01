@@ -52,6 +52,7 @@
             <td align="left"><a href="#26">Lecture-26</a></td>
             <td align="left"><a href="#27">Lecture-27</a></td>
             <td align="left"><a href="#28">Lecture-28</a></td>
+            <td align="left"><a href="#29">Lecture-29</a></td>
          </tr>
       </tbody>
    </table>
@@ -415,5 +416,15 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-28.png)
+> 
+> </details>
+
+<h4 id="29">Lecture 29</h4>
+
+29. [Lec-29 Minimum Insertion Steps to Make a String Palindrome at Leetcode](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-29.png)
 > 
 > </details>
