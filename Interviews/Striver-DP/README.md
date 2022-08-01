@@ -1,7 +1,7 @@
 ### Please try to solve the problems first before seeing the solution. This repository contains clean codes. Enjoy!
 #### If you are looking for codes to every approach, please check out my full [Striver's DP Series repositiory](https://github.com/archishmanghos/DSA-Functions/tree/master/Dynamic-Programming). Thanks!
 
-<div align="center">
+<div align="center" id="top">
 	<h3>Click on the Lecture you want to go!</h3>
    <table>
       <thead>
@@ -58,6 +58,8 @@
    </table>
 </div>
 
+<br>
+
 <h4 id="1">Lecture 1</h4>
 
 1. [Lec-1 Fibonacci Number at Leetcode](https://leetcode.com/problems/fibonacci-number/)
@@ -68,6 +70,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -82,6 +90,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="3">Lecture 3</h4>
@@ -94,6 +108,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -108,6 +128,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="5">Lecture 5</h4>
@@ -120,6 +146,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -134,6 +166,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="7">Lecture 7</h4>
@@ -146,6 +184,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -160,6 +204,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="9">Lecture 9</h4>
@@ -172,6 +222,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -186,6 +242,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="11">Lecture 11</h4>
@@ -198,6 +260,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -212,6 +280,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="13">Lecture 13</h4>
@@ -224,6 +298,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -238,6 +318,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="15">Lecture 15</h4>
@@ -250,6 +336,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -264,6 +356,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="17">Lecture 17</h4>
@@ -276,6 +374,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -290,6 +394,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="19">Lecture 19</h4>
@@ -302,6 +412,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -316,6 +432,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="21">Lecture 21</h4>
@@ -328,6 +450,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -342,6 +470,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="23">Lecture 23</h4>
@@ -354,6 +488,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -368,6 +508,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="25">Lecture 25</h4>
@@ -380,6 +526,12 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
 <br>
 <br>
 
@@ -394,6 +546,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="27">Lecture 27</h4>
@@ -407,6 +565,12 @@
 > </details>
 
 <br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
 <br>
 
 <h4 id="28">Lecture 28</h4>
@@ -419,6 +583,15 @@
 > 
 > </details>
 
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
 <h4 id="29">Lecture 29</h4>
 
 29. [Lec-29 Minimum Insertion Steps to Make a String Palindrome at Leetcode](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
@@ -428,3 +601,12 @@
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-29.png)
 > 
 > </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
