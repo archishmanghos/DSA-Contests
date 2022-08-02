@@ -55,6 +55,7 @@
             <td align="left"><a href="#29">Lecture-29</a></td>
             <td align="left"><a href="#30">Lecture-30</a></td>
             <td align="left"><a href="#31">Lecture-31</a></td>
+            <td align="left"><a href="#32">Lecture-32</a></td>
          </tr>
       </tbody>
    </table>
@@ -639,6 +640,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-31.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="32">Lecture 32</h4>
+
+32. [Lec-32 Shortest Common Supersequence at Leetcode](https://leetcode.com/problems/distinct-subsequences/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-32.png)
 > 
 > </details>
 
