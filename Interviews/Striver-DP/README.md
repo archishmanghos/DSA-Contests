@@ -56,6 +56,7 @@
             <td align="left"><a href="#30">Lecture-30</a></td>
             <td align="left"><a href="#31">Lecture-31</a></td>
             <td align="left"><a href="#32">Lecture-32</a></td>
+            <td align="left"><a href="#33">Lecture-33</a></td>
          </tr>
       </tbody>
    </table>
@@ -659,6 +660,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-32.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="33">Lecture 33</h4>
+
+33. [Lec-33 Edit Distance at Leetcode](https://leetcode.com/problems/edit-distance/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-33.png)
 > 
 > </details>
 
