@@ -53,6 +53,7 @@
             <td align="left"><a href="#27">Lecture-27</a></td>
             <td align="left"><a href="#28">Lecture-28</a></td>
             <td align="left"><a href="#29">Lecture-29</a></td>
+            <td align="left"><a href="#30">Lecture-30</a></td>
          </tr>
       </tbody>
    </table>
@@ -599,6 +600,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-29.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="30">Lecture 30</h4>
+
+30. [Lec-30 Delete Operation for Two Strings at Leetcode](https://leetcode.com/problems/delete-operation-for-two-strings/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-30.png)
 > 
 > </details>
 
