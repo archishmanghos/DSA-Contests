@@ -56,7 +56,10 @@
             <td align="left"><a href="#30">Lecture-30</a></td>
             <td align="left"><a href="#31">Lecture-31</a></td>
             <td align="left"><a href="#32">Lecture-32</a></td>
+         </tr>
+         <tr>
             <td align="left"><a href="#33">Lecture-33</a></td>
+            <td align="left"><a href="#34">Lecture-34</a></td>
          </tr>
       </tbody>
    </table>
@@ -679,6 +682,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-33.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="34">Lecture 34</h4>
+
+34. [Lec-34 Wildcard Matching at Leetcode](https://leetcode.com/problems/wildcard-matching/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-34.png)
 > 
 > </details>
 
