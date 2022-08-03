@@ -64,6 +64,7 @@
             <td align="left"><a href="#36">Lecture-36</a></td>
             <td align="left"><a href="#37">Lecture-37</a></td>
             <td align="left"><a href="#38">Lecture-38</a></td>
+            <td align="left"><a href="#39">Lecture-39</a></td>
          </tr>
       </tbody>
    </table>
@@ -781,6 +782,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-38.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="39">Lecture 39</h4>
+
+39. [Lec-39 Best Time to Buy and Sell Stock with Cooldown at Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-39.png)
 > 
 > </details>
 
