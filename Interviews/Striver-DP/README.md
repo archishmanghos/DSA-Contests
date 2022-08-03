@@ -658,7 +658,7 @@
 
 <h4 id="32">Lecture 32</h4>
 
-32. [Lec-32 Shortest Common Supersequence at Leetcode](https://leetcode.com/problems/distinct-subsequences/)
+32. [Lec-32 Distinct Subsequences at Leetcode](https://leetcode.com/problems/distinct-subsequences/)
 
 > <details><summary>Clean Optimised Code</summary>
 > 
