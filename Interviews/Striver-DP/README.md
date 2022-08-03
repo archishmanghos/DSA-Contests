@@ -62,6 +62,7 @@
             <td align="left"><a href="#34">Lecture-34</a></td>
             <td align="left"><a href="#35">Lecture-35</a></td>
             <td align="left"><a href="#36">Lecture-36</a></td>
+            <td align="left"><a href="#37">Lecture-37</a></td>
          </tr>
       </tbody>
    </table>
@@ -741,6 +742,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-36.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="37">Lecture 37</h4>
+
+37. [Lec-37 Best Time to Buy and Sell Stock III at Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-37.png)
 > 
 > </details>
 
