@@ -71,6 +71,7 @@
             <td align="left"><a href="#41">Lecture-41</a></td>
             <td align="left"><a href="#42">Lecture-42</a></td>
             <td align="left"><a href="#43">Lecture-43</a></td>
+            <td align="left"><a href="#44">Lecture-44</a></td>
          </tr>
       </tbody>
    </table>
@@ -883,6 +884,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-43.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="44">Lecture 44</h4>
+
+44. [Lec-44 Largest Divisible Subset at Leetcode](https://leetcode.com/problems/largest-divisible-subset/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-44.png)
 > 
 > </details>
 
