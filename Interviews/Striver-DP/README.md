@@ -72,6 +72,7 @@
             <td align="left"><a href="#42">Lecture-42</a></td>
             <td align="left"><a href="#43">Lecture-43</a></td>
             <td align="left"><a href="#44">Lecture-44</a></td>
+            <td align="left"><a href="#45">Lecture-45</a></td>
          </tr>
       </tbody>
    </table>
@@ -903,6 +904,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-44.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="45">Lecture 45</h4>
+
+45. [Lec-45 Longest String Chain at Leetcode](https://leetcode.com/problems/longest-string-chain/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-45.png)
 > 
 > </details>
 
