@@ -1,5 +1,5 @@
 ### Please try to solve the problems first before seeing the solution. This repository contains clean codes. Enjoy!
-#### If you are looking for codes to every approach, please check out my full [Striver's DP Series repositiory](https://github.com/archishmanghos/DSA-Functions/tree/master/Dynamic-Programming). Thanks!
+#### If you are looking for codes to every approach, please check out my full [Striver's DP Series repositiory](https://github.com/archishmanghos/dynamic-programming-classical). Thanks!
 
 <div align="center" id="top">
 	<h3>Click on the Lecture you want to go!</h3>
