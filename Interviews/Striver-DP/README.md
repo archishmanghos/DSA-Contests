@@ -65,6 +65,7 @@
             <td align="left"><a href="#37">Lecture-37</a></td>
             <td align="left"><a href="#38">Lecture-38</a></td>
             <td align="left"><a href="#39">Lecture-39</a></td>
+            <td align="left"><a href="#40">Lecture-40</a></td>
          </tr>
       </tbody>
    </table>
@@ -801,6 +802,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-39.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="40">Lecture 40</h4>
+
+40. [Lec-40 Best Time to Buy and Sell Stock with Transaction Fee at Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-40.png)
 > 
 > </details>
 
