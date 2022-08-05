@@ -74,6 +74,7 @@
             <td align="left"><a href="#44">Lecture-44</a></td>
             <td align="left"><a href="#45">Lecture-45</a></td>
             <td align="left"><a href="#46">Lecture-46</a></td>
+            <td align="left"><a href="#47">Lecture-47</a></td>
          </tr>
       </tbody>
    </table>
@@ -943,6 +944,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-46.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="47">Lecture 47</h4>
+
+47. [Lec-47 Number of Longest Increasing Subsequence at Leetcode](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-47.png)
 > 
 > </details>
 
