@@ -73,6 +73,7 @@
             <td align="left"><a href="#43">Lecture-43</a></td>
             <td align="left"><a href="#44">Lecture-44</a></td>
             <td align="left"><a href="#45">Lecture-45</a></td>
+            <td align="left"><a href="#46">Lecture-46</a></td>
          </tr>
       </tbody>
    </table>
@@ -923,6 +924,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-45.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="46">Lecture 46</h4>
+
+46. [Lec-46 Longest Bitonic Sequence at Code Studio](https://www.codingninjas.com/codestudio/problems/1062688)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-46.png)
 > 
 > </details>
 
