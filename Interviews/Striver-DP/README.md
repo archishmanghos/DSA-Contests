@@ -76,6 +76,8 @@
             <td align="left"><a href="#46">Lecture-46</a></td>
             <td align="left"><a href="#47">Lecture-47</a></td>
             <td align="left"><a href="#49">Lecture-48</a></td>
+         </tr>
+         <tr>
             <td align="left"><a href="#49">Lecture-49</a></td>
          </tr>
       </tbody>
