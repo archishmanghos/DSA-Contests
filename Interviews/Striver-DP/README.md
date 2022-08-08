@@ -80,6 +80,7 @@
          <tr>
             <td align="left"><a href="#49">Lecture-49</a></td>
             <td align="left"><a href="#50">Lecture-50</a></td>
+            <td align="left"><a href="#51">Lecture-51</a></td>
          </tr>
       </tbody>
    </table>
@@ -1006,6 +1007,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-50.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="51">Lecture 51</h4>
+
+51. [Lec-51 Burst Balloons at LeetCode](https://leetcode.com/problems/burst-balloons/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-51.png)
 > 
 > </details>
 
