@@ -82,6 +82,7 @@
             <td align="left"><a href="#50">Lecture-50</a></td>
             <td align="left"><a href="#51">Lecture-51</a></td>
             <td align="left"><a href="#52">Lecture-52</a></td>
+            <td align="left"><a href="#53">Lecture-53</a></td>
          </tr>
       </tbody>
    </table>
@@ -1046,6 +1047,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-52.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="53">Lecture 53</h4>
+
+53. [Lec-53 Palindrome Partitioning II at LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-53.png)
 > 
 > </details>
 
