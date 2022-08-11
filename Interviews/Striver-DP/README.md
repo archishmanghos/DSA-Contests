@@ -83,6 +83,7 @@
             <td align="left"><a href="#51">Lecture-51</a></td>
             <td align="left"><a href="#52">Lecture-52</a></td>
             <td align="left"><a href="#53">Lecture-53</a></td>
+            <td align="left"><a href="#54">Lecture-54</a></td>
          </tr>
       </tbody>
    </table>
@@ -1066,6 +1067,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-53.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="54">Lecture 54</h4>
+
+54. [Lec-54 Partition Array for Maximum Sum at LeetCode](https://leetcode.com/problems/partition-array-for-maximum-sum/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-54.png)
 > 
 > </details>
 
