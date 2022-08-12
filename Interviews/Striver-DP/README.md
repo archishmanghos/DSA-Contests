@@ -84,6 +84,7 @@
             <td align="left"><a href="#52">Lecture-52</a></td>
             <td align="left"><a href="#53">Lecture-53</a></td>
             <td align="left"><a href="#54">Lecture-54</a></td>
+            <td align="left"><a href="#55">Lecture-55</a></td>
          </tr>
       </tbody>
    </table>
@@ -1086,6 +1087,25 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-54.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<h4 id="55">Lecture 55</h4>
+
+55. [Lec-55 Maximal Rectangle at LeetCode](https://leetcode.com/problems/maximal-rectangle/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-55.png)
 > 
 > </details>
 
