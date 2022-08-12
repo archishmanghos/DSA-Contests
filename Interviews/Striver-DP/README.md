@@ -85,6 +85,7 @@
             <td align="left"><a href="#53">Lecture-53</a></td>
             <td align="left"><a href="#54">Lecture-54</a></td>
             <td align="left"><a href="#55">Lecture-55</a></td>
+            <td align="left"><a href="#56">Lecture-56</a></td>
          </tr>
       </tbody>
    </table>
@@ -1106,6 +1107,23 @@
 > <details><summary>Clean Optimised Code</summary>
 > 
 > ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-55.png)
+> 
+> </details>
+
+<br>
+
+<a href="#top">Back to Top</a>
+
+<br>
+<br>
+<br>
+<br>
+
+56. [Lec-56 Count Square Submatrices with All Ones at LeetCode](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+
+> <details><summary>Clean Optimised Code</summary>
+> 
+> ![](https://github.com/archishmanghos/code-images/blob/master/DP-Striver/Lec-56.png)
 > 
 > </details>
 
