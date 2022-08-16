@@ -1,0 +1,2 @@
+<!-- Runtime: 14 ms, faster than 99.55% of C++ online submissions for First Unique Character in a String.
+Memory Usage: 10.6 MB, less than 91.52% of C++ online submissions for First Unique Character in a String. -->
