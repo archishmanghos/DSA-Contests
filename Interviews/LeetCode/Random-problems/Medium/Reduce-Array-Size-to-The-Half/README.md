@@ -1,0 +1,2 @@
+<!-- Runtime: 389 ms, faster than 37.33% of C++ online submissions for Reduce Array Size to The Half.
+Memory Usage: 69.8 MB, less than 91.87% of C++ online submissions for Reduce Array Size to The Half. -->
