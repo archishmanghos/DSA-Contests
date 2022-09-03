@@ -1,0 +1,2 @@
+<!-- Runtime: 3 ms, faster than 74.35% of C++ online submissions for Numbers With Same Consecutive Differences.
+Memory Usage: 7.1 MB, less than 96.71% of C++ online submissions for Numbers With Same Consecutive Differences. -->
