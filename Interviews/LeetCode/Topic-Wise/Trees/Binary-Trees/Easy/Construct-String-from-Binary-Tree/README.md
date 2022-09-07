@@ -1,0 +1,2 @@
+<!-- Runtime: 46 ms, faster than 35.47% of C++ online submissions for Construct String from Binary Tree.
+Memory Usage: 66 MB, less than 13.51% of C++ online submissions for Construct String from Binary Tree. -->
