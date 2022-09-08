@@ -35,7 +35,7 @@ Optimal Solution 2: TC = `O(V + E)`, SC = `O(V)`
 * So, if we cannot apply topo sort, then the graph contains a cycle.
 
 
-Runtime: `57 ms`, faster than `13.22%`.
+Runtime: `57 ms`, faster than `13.22%`. <br>
 Memory Usage: `13.9 MB`, less than `55.05%`.
 
 

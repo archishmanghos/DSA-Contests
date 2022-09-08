@@ -39,7 +39,7 @@ Total Time Taken: `0.03`
 
 <details><summary>Clean Code</summary>
 
-![](https://github.com/archishmanghos/code-images/blob/master/GFG/BFS-of-Graph.png)
+![](https://github.com/archishmanghos/code-images/blob/master/GFG/BFS-of-graph.png)
 
 </details>
 
