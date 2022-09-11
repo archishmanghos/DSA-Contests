@@ -1,0 +1,1 @@
+![](https://github.com/archishmanghos/code-images/blob/master/GFG/Count-occurrences-of-a-given-word-in-a-2-d-array.png)
