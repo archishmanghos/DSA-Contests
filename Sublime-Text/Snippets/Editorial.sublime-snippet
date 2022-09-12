@@ -1,0 +1,52 @@
+<snippet>
+  <content><![CDATA[
+<!-- [Link to Striver's SDE Sheet]() -->
+
+[Link to problem on ]()
+
+
+
+<details><summary>Sub-Optimal Solution</summary>
+
+Sub-Optimal Solution: TC = , SC =  
+
+*
+
+
+Runtime: , faster than <br>
+Memory Usage: , less than <br>
+
+<details><summary>Clean Code</summary>
+
+![]()
+
+</details>
+
+</details>
+
+
+
+<details><summary>Optimal Solution</summary>
+
+Optimal Solution: TC = , SC =  
+
+*
+
+
+Runtime: , faster than <br>
+Memory Usage: , less than <br>
+
+
+<details><summary>Clean Code</summary>
+
+![]()
+
+</details>
+
+</details>
+]]></content>
+  <tabTrigger>template</tabTrigger>
+  <description>Editorial</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
