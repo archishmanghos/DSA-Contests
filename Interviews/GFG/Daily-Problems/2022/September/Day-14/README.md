@@ -1,0 +1,1 @@
+![](https://github.com/archishmanghos/code-images/blob/master/GFG/Power-Of-2-and-Subsequences.png)
