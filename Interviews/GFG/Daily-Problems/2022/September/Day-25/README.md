@@ -1,0 +1,1 @@
+![](https://github.com/archishmanghos/code-images/blob/master/GFG/Queries-on-a-Matrix.png)
