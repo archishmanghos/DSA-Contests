@@ -14,7 +14,7 @@ Optimal Solution: TC = `O(N)`, SC = `O(N + N)`
 
 Total Time Taken: `0.19`<br>
 
-![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/bottom-view.png)
+![](https://github.com/archishmanghos/code-images/blob/master/GFG/bottom-view.png)
 
 </details>
 
@@ -24,7 +24,7 @@ Total Time Taken: `0.19`<br>
 
 Total Time Taken: `0.54`<br>
 
-![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/bottom-view-py.png)
+![](https://github.com/archishmanghos/code-images/blob/master/GFG/bottom-view-py.png)
 
 </details>
 
