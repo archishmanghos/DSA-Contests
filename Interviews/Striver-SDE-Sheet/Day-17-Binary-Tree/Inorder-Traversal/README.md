@@ -4,13 +4,13 @@
 
 [Link to Article on TUF](https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/)
 
-<details><summary>Optimal Solution</summary>
-
 Optimal Solution: TC = `O(N)`, SC = `O(N)`
 
 <br>
 
-<details><summary>Clean C++ Code</summary>
+<details><summary>Clean Codes in C++ and Python</summary>
+
+<details><summary><strong>C++</strong></summary>
 
 Runtime: `0 ms`, faster than `100%`.<br>
 Memory Usage: `8.3 MB`, less than `75.10%`.<br>
@@ -19,11 +19,9 @@ Memory Usage: `8.3 MB`, less than `75.10%`.<br>
 
 </details>
 
-</details>
-
 <br>
 
-<details><summary>Clean Python Code</summary>
+<details><summary><strong>Python</strong></summary>
 
 Runtime: `70 ms`, faster than `5.53%`.<br>
 Memory Usage: `13.9 MB`, less than `59.53%`.<br>
