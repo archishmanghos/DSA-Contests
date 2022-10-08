@@ -24,7 +24,7 @@ int32_t main() {
 		}
 
 		if (even.size() > 2) even.pop();
-		if (odd.size() > 2)odd.pop();
+		if (odd.size() > 2) odd.pop();
 	}
 
 	int ans = -1;
