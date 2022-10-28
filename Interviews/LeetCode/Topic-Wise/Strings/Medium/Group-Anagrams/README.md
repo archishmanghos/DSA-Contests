@@ -3,7 +3,7 @@
 Runtime: `84 ms`, faster than `38.65%`.<br>
 Memory Usage: `19.9 MB`, less than `69.06%`.<br>
 
-![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/49.png)
+![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/49-A.png)
 
 </details>
 
