@@ -10,6 +10,15 @@
   - <a href = "#1.5">MySQL vs SQL</a>
   - <a href = "#1.6">Installation of MySQL</a>
     - <a href = "#1.6.1">Global Usage</a>
+  - <a href = "#1.7">SQL commands</a>
+    - <a href = "#1.7.1">Show DB</a>
+    - <a href = "#1.7.2">Drop DB</a>
+    - <a href = "#1.7.3">Use DB</a>
+    - <a href = "#1.7.4">Select DB</a>
+    - <a href = "#1.7.5">Create Table</a>
+    - <a href = "#1.7.6">Show Table</a>
+    - <a href = "#1.7.7">Describe Table</a>
+    - <a href = "#1.7.8">Drop Table</a>
 
 <h2 id = "1"> Session 1 </h2>
 
@@ -37,7 +46,7 @@
    Ans: There are 2 methods by which we can use MySQL, by using it globally or locally. Below are the 2 processes:<br><br>
    1. <h4 id = "1.6.1"> Global Usage: </h4><br>
 
-   - Go to [https://ide.goorm.io/](Goorm ide site)
+   - Go to [Goorm ide site](https://ide.goorm.io/)
    - Click on _Get Started_ and _Sign up_ using an account. (Preferably Google).
    - Now, you will be re-directed to a dashboard.
    - Click _New Container_. It will be somewhere at the top-right of the page, considering this blog hasn't become too old!
@@ -45,3 +54,42 @@
    - At the bottom, there will be a section of _Additional module/package_: Check the 1st 2 options, _Install MySQL_ and _Enable mysql-ctl command_.
    - We are all set and click _Create_. This will take some time to finish.
    - After finishing, click on launch container.
+
+   2. <h4 id = "1.6.2"> Local Usage: </h4><br>
+
+   - Will add this later.<br><br>
+
+7. <h3 id = "1.7"> SQL commands </h3><br>
+   Ans: We start with the following commands:<br>
+
+   - <h4 id = "1.7.1">SHOW DATABASES:</h4> This command shows all the available databases currently.<br>
+
+     ![](20221108130737.png)
+
+   - <h4 id = "1.7.2">DROP DATABASE [database name]: </h4> This command drops the specified database.<br>
+
+     ![](20221108131433.png)
+
+   - <h4 id = "1.7.3"> USE [database name]:</h4> This command changes the current database to the specified one.<br>
+
+     ![](20221108131548.png)
+
+   - <h4 id = "1.7.4"> SELECT database():</h4> This command shows the current db that is under use.<br>
+
+     ![](20221108131605.png)
+
+   - <h4 id = "1.7.5"> CREATE TABLE [table name]([column name] [datatype], [], ...):</h4> This command creates a new table with the specified attributes.<br>
+
+     ![](20221108131632.png)
+
+   - <h4 id = "1.7.6"> SHOW TABLES:</h4> This command shows all the tables present in the current database.<br>
+
+     ![](20221108130330.png)
+
+   - <h4 id = "1.7.7"> DESC [table name]:</h4> This command describes the specified table name.<br>
+
+     ![](20221108131650.png)
+
+   - <h4 id = "1.7.8"> DROP TABLE [table name]:</h4> This command drops the mentioned table from the current database.<br>
+
+     ![](20221108132243.png)
