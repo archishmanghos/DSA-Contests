@@ -64,32 +64,58 @@
 
    - <h4 id = "1.7.1">SHOW DATABASES:</h4> This command shows all the available databases currently.<br>
 
-     ![](20221108130737.png)
+     ![](assets/20221108130737.png)
 
    - <h4 id = "1.7.2">DROP DATABASE [database name]: </h4> This command drops the specified database.<br>
 
-     ![](20221108131433.png)
+     ![](assets/20221108131433.png)
 
    - <h4 id = "1.7.3"> USE [database name]:</h4> This command changes the current database to the specified one.<br>
 
-     ![](20221108131548.png)
+     ![](assets/20221108131548.png)
 
    - <h4 id = "1.7.4"> SELECT database():</h4> This command shows the current db that is under use.<br>
 
-     ![](20221108131605.png)
+     ![](assets/20221108131605.png)
 
    - <h4 id = "1.7.5"> CREATE TABLE [table name]([column name] [datatype], [], ...):</h4> This command creates a new table with the specified attributes.<br>
 
-     ![](20221108131632.png)
+     ![](assets/20221108131632.png)
 
    - <h4 id = "1.7.6"> SHOW TABLES:</h4> This command shows all the tables present in the current database.<br>
 
-     ![](20221108130330.png)
+     ![](assets/20221108130330.png)
 
    - <h4 id = "1.7.7"> DESC [table name]:</h4> This command describes the specified table name.<br>
 
-     ![](20221108131650.png)
+     ![](assets/20221108131650.png)
 
    - <h4 id = "1.7.8"> DROP TABLE [table name]:</h4> This command drops the mentioned table from the current database.<br>
 
-     ![](20221108132243.png)
+     ![](assets/20221108132243.png)
+
+<h2 id = "2"> Session 2 </h2>
+
+1. <h3 id = "2.1">CRUD Operations</h3><br>
+   Ans: CRUD stands for:
+
+   - Create: insert statements
+   - Read: select statements
+   - Update: update statements
+   - Delete: delete statements
+
+2. <h3 id = "2.2">Basic SQL Commands:</h3><br>
+
+- <h4 id = "2.2.1"> INSERT INTO [table name] [columns list] VALUES [Value for every corresponding column] :</h4> This command inserts value inside the specified table for the specified columns.<br>
+
+  ![](assets/20221109124239.png)
+
+  ![](assets/20221109124317.png)
+
+- <h4 id = "2.2.2"> NOT NULL :</h4> This command will specify that the value of the mentioned attribute can never be NULL. If a prompt is given with a NULL value, it will give an error.<br>
+
+  ![](assets/20221109125931.png)
+
+- <h4 id = "2.2.3"> DEFAULT [value] :</h4> This command specifies the default value for an attribute. If no value is given, the default value will be considered.<br>
+
+  ![](assets/20221109130221.png)
