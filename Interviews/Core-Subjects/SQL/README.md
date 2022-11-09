@@ -19,6 +19,12 @@
     - <a href = "#1.7.6">Show Table</a>
     - <a href = "#1.7.7">Describe Table</a>
     - <a href = "#1.7.8">Drop Table</a>
+- <a href = "#2">Session 2:</a><br>
+  - <a href = "#2.1">CRUD Operations</a>
+  - <a href = "#2.2">Basic SQL Commands</a>
+    - <a href = "#2.2.1">Insert Data</a>
+    - <a href = "#2.2.2">NOT NULL keyword</a>
+    - <a href = "#2.2.3">DEFAULT keyword</a>
 
 <h2 id = "1"> Session 1 </h2>
 
