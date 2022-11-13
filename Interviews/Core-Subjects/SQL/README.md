@@ -25,6 +25,13 @@
     - <a href = "#2.2.1">Insert Data</a>
     - <a href = "#2.2.2">NOT NULL keyword</a>
     - <a href = "#2.2.3">DEFAULT keyword</a>
+- <a href = "#3">Session 3:</a>
+  - <a href = "#3.1">Primary Key</a>
+    - <a href = "#3.1.1">Auto Increment</a>
+    - <a href = "#3.1.2">Composite Primary Key</a>
+  - <a href = "#3.2">Unique Key</a>
+  - <a href = "#3.3">Difference b/w Primary and Unique Key</a>
+  - <a href = "#3.4">Unique Key and NULL Relation</a>
 
 <h2 id = "1"> Session 1 </h2>
 
@@ -125,3 +132,75 @@
 - <h4 id = "2.2.3"> DEFAULT [value] :</h4> This command specifies the default value for an attribute. If no value is given, the default value will be considered.<br>
 
   ![](assets/20221109130221.png)
+
+<h2 id = "3"> Session 3 </h2>
+
+1.  <h3 id = "3.1">Primary Key</h3>
+      Ans: This identifies a column as a column that will only contain **unique values** and the values cannot be **NULL**.
+
+    ![](assets/20221113095528.png)
+
+      <h4 id = "3.1.1">Auto-Increment:</h4>
+       Ans:  Since primary keys mostly correspond to IDs, it is set to auto-increment while creating the database to free the pain of identifying ids for every record and the primary key can then be ommitted from the sql code to insert a new record. The table auto-increments for every record.<br><br>
+
+    > I did not provide eid here which is primary key and required. This is because I specified it to be auto incremented and hence is taken care of by the database.
+    >
+    > ![](assets/20221113113245.png)
+    >
+    > The id gets automatically inserted below.
+    >
+    > ![](assets/20221113113458.png)
+
+    <h4 id = "3.1.2">Composite Primary Key</h4>
+    Ans: This is used when we cannot figure out how to identify a record uniquely using only 1 attribute. Then, 1 or more attributes may be combined to make a primary key that will always be unique and not null.<br>
+
+    The first and lastname combined form the primary key for this table.
+
+    ![](assets/20221113114907.png)
+
+    When I try entering the same first and lastname as before, it gives an error because a primary key cannot be repeated.
+
+    ![](assets/20221113115100.png)
+
+2.  <h3 id = "3.2">Unique Key</h3>
+    Ans: Unique key as the name suggests can have only unique values.<br>
+    Notice, the id marked as unique key allows NULL values which was not the case when it was declared as Primary Key.
+
+    ![](assets/20221113113958.png)
+
+3.  <h3 id = "3.3">Difference between Primary Key and Unique Key:</h3>
+    Ans: <div align="center">
+       <table>
+         <thead>
+            <tr>
+               <th align="left">Primary Key</th>
+               <th align="left">Unique Key</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td align="left">There can be only 1 Primary Key.</td>
+               <td align="left">There can be multiple Unique Keys.</td>
+            </tr>
+            <tr>
+               <td align="left">Primary Key cannot be NULL.</td>
+               <td align="left">Unique Keys can hold NULL.</td>
+            </tr>
+            <tr>
+               <td align="left">Primary Keys uniquely identifies a record.</td>
+               <td align="left">Unique Keys have no such funtionality.</td>
+            </tr>
+     </div>
+
+4.  <h3 id = "3.4">Relationship between Unique Key and NULL:</h3>
+    Ans: This relation varies from DB to DB. In MySql, if a column is marked as unique key, it will take any number of NULL values. However, in some other DBs, it may happen that it takes only 1 NULL value.
+
+    ![](assets/20221113114129.png)
+
+    When I try inserting 2 NULL eids, it will still work, because this is MySql.
+
+    ![](assets/20221113114315.png)
+
+    However, on trying similar non-NULL values, it will give an error which should be obvious for all databases.
+
+    ![](assets/20221113114424.png)
