@@ -190,6 +190,8 @@
                <td align="left">Primary Keys uniquely identifies a record.</td>
                <td align="left">Unique Keys have no such funtionality.</td>
             </tr>
+          </tbody>
+        </table>
      </div>
 
 4.  <h3 id = "3.4">Relationship between Unique Key and NULL:</h3>
