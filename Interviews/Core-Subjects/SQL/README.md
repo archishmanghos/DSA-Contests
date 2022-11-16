@@ -32,6 +32,28 @@
   - <a href = "#3.2">Unique Key</a>
   - <a href = "#3.3">Difference b/w Primary and Unique Key</a>
   - <a href = "#3.4">Unique Key and NULL Relation</a>
+- <a href = "#4">Session 4</a>
+  - <a href = "#4.1">Select Statements</a>
+    - <a href = "#4.1.1">Select all</a>
+    - <a href = "#4.1.2">Select Specific Columns</a>
+    - <a href = "#4.1.3">Selection using Conditions</a>
+    - <a href = "#4.1.4">Selection as Aliases</a>
+  - <a href = "#4.2">Update Statements</a>
+    - <a href = "#4.2.1">Update with Condition</a>
+    - <a href = "#4.2.2">Update all records</a>
+    - <a href = "#4.2.3">Update using arithmetic operators</a>
+  - <a href = "#4.3">Delete Statements</a>
+    - <a href = "#4.3.1">Delete with condition</a>
+    - <a href = "#4.3.2">Delete all records</a>
+  - <a href = "#4.4">Alter Statements</a>
+    - <a href = "#4.4.1">Add column</a>
+    - <a href = "#4.4.2">Drop column</a>
+    - <a href = "#4.4.3">Modify column</a>
+    - <a href = "#4.4.4">Add primary key</a>
+    - <a href = "#4.4.5">Drop primary key</a>
+  - <a href = "#4.5">DDL vs DML</a>
+  - <a href = "#4.6">Truncate vs Delete</a>
+  - <a href = "#4.7">Update vs Alter</a>
 
 <h2 id = "1"> Session 1 </h2>
 
@@ -46,8 +68,8 @@
 3. <h3 id = "1.3">Different types of Databases</h3><br>
    Ans: 2 types of databases:<br>
 
-- <h4 id = "1.3.1"> Relational Databases </h4>: Rows and Columns and also tables have relation between them. Example: `MySQL`, `SQL Server`, `PostgreSQL`, `SQLite`, `MariaDB`.<br>
-- <h4 id = "1.3.2"> NoSQL Databases </h4>: Key Value, Document, Graphs. Doesn't have any specified structure and different structures are non-relational. Example: `Hbase`, `Mongodb`, `Cassandra`.<br><br>
+   - <h4 id = "1.3.1"> Relational Databases </h4>: Rows and Columns and also tables have relation between them. Example: `MySQL`, `SQL Server`, `PostgreSQL`, `SQLite`, `MariaDB`.<br>
+   - <h4 id = "1.3.2"> NoSQL Databases </h4>: Key Value, Document, Graphs. Doesn't have any specified structure and different structures are non-relational. Example: `Hbase`, `Mongodb`, `Cassandra`.<br><br>
 
 4. <h3 id = "1.4">SQL</h3><br>
    Ans: Stands for Structured Query Language and is used to query a relational database.<br><br>
@@ -119,19 +141,19 @@
 
 2. <h3 id = "2.2">Basic SQL Commands:</h3><br>
 
-- <h4 id = "2.2.1"> INSERT INTO [table name] [columns list] VALUES [Value for every corresponding column] :</h4> This command inserts value inside the specified table for the specified columns.<br>
+   - <h4 id = "2.2.1"> INSERT INTO [table name] [columns list] VALUES [Value for every corresponding column] :</h4> This command inserts value inside the specified table for the specified columns.<br>
 
-  ![](assets/20221109124239.png)
+     ![](assets/20221109124239.png)
 
-  ![](assets/20221109124317.png)
+     ![](assets/20221109124317.png)
 
-- <h4 id = "2.2.2"> NOT NULL :</h4> This command will specify that the value of the mentioned attribute can never be NULL. If a prompt is given with a NULL value, it will give an error.<br>
+   - <h4 id = "2.2.2"> NOT NULL :</h4> This command will specify that the value of the mentioned attribute can never be NULL. If a prompt is given with a NULL value, it will give an error.<br>
 
-  ![](assets/20221109125931.png)
+     ![](assets/20221109125931.png)
 
-- <h4 id = "2.2.3"> DEFAULT [value] :</h4> This command specifies the default value for an attribute. If no value is given, the default value will be considered.<br>
+   - <h4 id = "2.2.3"> DEFAULT [value] :</h4> This command specifies the default value for an attribute. If no value is given, the default value will be considered.<br>
 
-  ![](assets/20221109130221.png)
+     ![](assets/20221109130221.png)
 
 <h2 id = "3"> Session 3 </h2>
 
@@ -206,3 +228,168 @@
     However, on trying similar non-NULL values, it will give an error which should be obvious for all databases.
 
     ![](assets/20221113114424.png)
+
+<h2 id = "4"> Session 4 </h2>
+
+1. <h3 id = "4.1">Select statements:</h3>
+
+   - <h4 id = "4.1.1">Selecting * from [table name]:</h4>
+     This command shows all records across all rows and columns of the table.
+
+     ![](assets/20221116092834.png)
+
+   - <h4 id = "4.1.2">Selecting [column1 ... columnN] from [table name]:</h4>
+     This command shows all rows across the specified N columns only.
+
+     ![](assets/20221116093011.png)
+
+   - <h4 id = "4.1.3">Selecting [* / [column1 ... columnN]] from [table name] where [conditional clause]:</h4>
+     This command shows only rows which statisfy the condition across columns specified.
+
+     ![](assets/20221116093440.png)
+
+     - <h4 id = "4.1.3.1">Case Sensitivity of where clause (Binary Keyword):</h4>
+       By default, where is case-insensitive but on specifying a keyword called binary, it can be made case-sensitive.
+
+       ![](assets/20221116093725.png)
+
+   - <h4 id = "4.1.4">'as' keyword:</h4>
+      This keyword is used in case we want to have the columns have a different name when displayed, than the one in the database. This is also known as displaying as an alias.
+
+     ![](assets/20221116094139.png)
+
+2. <h3 id = "4.2">Update statements:</h3>
+
+   - <h4 id = "4.2.1">Update [table name] set [column name] = [new value] where [column name] = [value]:</h4>
+     This updates the value of the specified column name value where the conditional clause matches.
+
+     ![](assets/20221116094917.png)
+
+   - <h4 id = "4.2.2">Update [table name] set [column name] = [new value]:</h4>
+     Omitting the where clause will update all rows with the new value.
+
+     ![](assets/20221116095249.png)
+
+   - <h4 id = "4.2.3">Update [table name] set [column name] = [column name] + [new value]:</h4>
+     This will update the previous record by adding the new value.
+
+   ![](assets/20221116095724.png)
+
+3. <h3 id = "4.3">Delete statements:</h3>
+
+   - <h4 id = "4.3.1">Delete from [table name] where [condition clause]:</h4>
+     This deletes all rows which match the condition clause.
+
+     ![](assets/20221116103312.png)
+
+   - <h4 id = "4.3.2">Delete from [table name]:</h4>
+     This will delete all record from the table. 
+     !important: __If records are deleted and the column is set to be auto incremented, the column's value will start from where it ended and not from 1 again.__
+
+   ![](assets/20221116103419.png)
+
+4. <h3 id = "4.4">Alter statements:</h3>
+
+   - <h4 id = "4.4.1">Alter table [table name] add column [column name][datatype]:</h4>
+     This adds a new column with the specified datatype.
+
+     ![](assets/20221116110602.png)
+
+     ![](assets/20221116110618.png)
+
+   - <h4 id = "4.4.2">Alter table [table name] drop column [column name]:</h4>
+     This drops the specified column.
+
+     ![](assets/20221116110810.png)
+
+     ![](assets/20221116110828.png)
+
+   - <h4 id = "4.4.3">Alter table [table name] modify column [column name] [new datatype]:</h4>
+     This changes the datatype of the specified column to the new datatype.
+
+     ![](assets/20221116111029.png)
+
+   - <h4 id = "4.4.4">Alter table [table name] drop primary key:</h4>
+      Drops the primary key of the table.
+
+     ![](assets/20221116111437.png)
+
+     ![](assets/20221116111453.png)
+
+   - <h4 id = "4.4.5">Alter table [table name] add primary key(column name):</h4>
+     Adds the specified column as the primary key of the table.
+
+     ![](assets/20221116111546.png)
+
+     ![](assets/20221116111607.png)
+
+5. <h3 id = "4.5">DDL vs DML:</h3>
+   <div align="center">
+     <table>
+       <thead>
+           <tr>
+             <th align="left">DDL</th>
+             <th align="left">DML</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+             <td align="left">Stands for Data Definition Language.</td>
+             <td align="left">Stands for Data Manipulation Language.</td>
+           </tr>
+           <tr>
+             <td align="left">This deals with the structure or schema of the table.</td>
+             <td align="left">This deals with the actual data of the table.</td>
+           </tr>
+           <tr>
+             <td align="left">Create, Alter, Drop are some of the DDL commands.</td>
+             <td align="left">Insert, Update, Delete are some of the DML commands.</td>
+           </tr>
+         </tbody>
+       </table>
+   </div>
+
+6. <h3 id = "4.6">Truncate vs Delete:</h3>
+
+   <div align="center">
+     <table>
+       <thead>
+           <tr>
+             <th align="left">Truncate</th>
+             <th align="left">Delete</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+             <td align="left">Truncate is a DDL command.</td>
+             <td align="left">Delete is a DML command.</td>
+           </tr>
+           <tr>
+             <td align="left">This drops the table and re-creates it, resulting in deletion of all records.</td>
+             <td align="left">This deletes each record one by one till no records remain.</td>
+           </tr>
+           <tr>
+             <td align="left">For a large table with loads of data, truncate is much more efficient than delete as it drops the whole table at once.</td>
+             <td align="left">This is very slow for large volumes of data as it deletes each record one by one.</td>
+           </tr>
+         </tbody>
+       </table>
+   </div>
+
+7. <h3 id = "4.7">Update vs Alter:</h3>
+    <div align="center">
+     <table>
+       <thead>
+           <tr>
+             <th align="left">Update</th>
+             <th align="left">Alter</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+             <td align="left">This changes the actual data in the table.</td>
+             <td align="left">This changes the schema/structure of the table.</td>
+           </tr>
+         </tbody>
+       </table>
+   </div>
