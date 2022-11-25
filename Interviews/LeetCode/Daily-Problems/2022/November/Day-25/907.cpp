@@ -2,7 +2,7 @@
 using namespace std;
 
 class Solution {
-   public:
+public:
     int add(int a, int b, int p = 1e9 + 7) {
         int c = a + b;
         if (c >= p) {
@@ -43,3 +43,19 @@ class Solution {
         return ans;
     }
 };
+
+// Explanation of above logic:
+
+// 3 1 4 2
+
+// [(3, 0)]        Sum = 3
+// [(1, 1)]        Sum = 3 + 1 * 2 = 5
+// [(1, 1), (4, 2)]    Sum = 5 + 1 * 2 + 4 = 11
+// [(1, 1), (2, 3)]    Sum = 11 + 1 * 2 + 2 * 2 = 17
+
+// 3 1 2 4
+
+// [(3, 0)]            Sum = 3 * 1 = 3
+// [(1, 1)]            Sum = 3 + 1 * 2 = 5
+// [(1, 1), (2, 2)]        Sum = 5 + 1 * 2 + 2 * 1 = 9
+// [(1, 1), (2, 2), (4, 3)]    Sum = 9 + 1 * 2 + 2 * 1 + 4 * 1 = 17
