@@ -2,6 +2,6 @@
 
 <details><summary>Solution</summary>
 
-![](../../../../assets/20221226222420.png)
+![](../../../../assets/20221226222542.png)
 
 </details>
