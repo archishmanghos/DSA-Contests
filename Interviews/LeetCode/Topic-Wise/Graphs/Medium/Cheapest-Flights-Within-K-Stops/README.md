@@ -1,4 +1,8 @@
-![](https://github.com/archishmanghos/code-images/blob/master/Leetcode/787.png)
+<details><summary>C++ code</summary>
 
-Runtime: `835 ms`, faster than `5.07%`.<br>
-Memory Usage: `75.2 MB`, less than `10.65%`.
+Runtime `600 ms` Beats `5.4%`.<br>
+Memory `74.1 MB` Beats `5.78%`.
+
+![](../../../../assets/787.png)
+
+</details>
