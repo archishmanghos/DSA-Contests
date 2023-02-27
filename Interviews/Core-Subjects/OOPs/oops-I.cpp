@@ -40,7 +40,8 @@ class HeroEmpty {
 // Public: Accessible anywhere in the program.
 
 
-// Getters and Setters -> Can be used to get the value or set the value of private data members of a class. These are general public methods defined in the native class to change the value of private data members.
+// Getters and Setters -> Can be used to get the value or set the value of private data members of a class.
+// These are general public methods defined in the native class to change the value of private data members.
 
 // If we print the size of h1 object of Hero class, the value will be not only be the sum of the sizes of the datatypes but will also add in padding size.
 
@@ -102,11 +103,13 @@ public:
 
 // Copy Constructor: Copies the values of a pre-defined object to a new object whose constructor has been called.
 
-// Deep Copy and Shallow Copy: If a copy constructor gets called on a pointer variable, it changes the value at that address. Deep copy is created when a new copy of the data structure is made and the value is copied to the new address.
+// Deep Copy and Shallow Copy: If a copy constructor gets called on a pointer variable, it changes the value at that address.
+// Deep copy is created when a new copy of the data structure is made and the value is copied to the new address.
 
 // Copy Assignment Operator: Copies values of an object to another object.
 
-// Destructor : Deallocates memory of an object. For static allocation, destructor is called immediately, but for dynamically allocated objects, destructor has to be called manually.
+// Destructor : Deallocates memory of an object. For static allocation, destructor is called immediately,
+// but for dynamically allocated objects, destructor has to be called manually.
 
 class HeroConstructor {
 public:
@@ -137,9 +140,12 @@ public:
 	}
 };
 
-// Static Members: Static members belong to the class and doesn't bind to the object. Static members can be accessed without creating an object using a scope resolution operator.
+// Static Members: Static members belong to the class and doesn't bind to the object.
+// Static members can be accessed without creating an object using a scope resolution operator.
 
-// Static Functions: Static functions also belong to the class and not the object. So they can be called without creating the object. These can only access static members of the class and no other members. Since static functions are not bound to an object, "this" keyword is not defined here, as this points to the object itself.
+// Static Functions: Static functions also belong to the class and not the object. So they can be called without creating the object.
+// These can only access static members of the class and no other members.
+// Since static functions are not bound to an object, "this" keyword is not defined here, as this points to the object itself.
 
 class Hero {
 public:
