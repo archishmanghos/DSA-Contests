@@ -7,19 +7,13 @@ string S;
 
 void solve() {
 	cin >> N >> S;
-	string T = "meow";
-	int j = 0;
+	string T = "";
 	for (int i = 0; i < N; i++) {
-		if (S[i] >= 'A' and S[i] <= 'Z') S[i] = tolower(S[i]);
-		if (S[i] == T[j]) continue;
-		j++;
-		if (j > 3 or S[i] != T[j]) {
-			cout << "NO" << '\n';
-			return;
-		}
+		char ch = char(S[i] | 1 << 5);
+		if (T.size() == 0 or T.back() != ch) T += ch;
 	}
 
-	cout << (j == 3 ? "YES" : "NO") << '\n';
+	cout << (T == "meow" ? "YES" : "NO") << '\n';
 }
 
 int32_t main() {
