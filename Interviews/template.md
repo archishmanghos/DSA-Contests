@@ -6,7 +6,7 @@
 
 <details><summary>Sub-Optimal Solution</summary>
 
-Sub-Optimal Solution: TC = , SC =  
+Sub-Optimal Solution: TC = O(), SC =  
 
 *
 
