@@ -10,7 +10,7 @@ public:
 
 		int one = 0;
 		for (int i : nums) one += i == 1;
-		if (one > 0) (nums.size() - one);
+		if (one > 0) return ((int)nums.size() - one);
 
 		int minL = 1e9;
 		for (int i = 0; i + 1 < nums.size(); i++) {
