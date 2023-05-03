@@ -31,13 +31,11 @@ int32_t main() {
 		}
 	}
 
-	vector<vector<int>> answer;
-	while (!q.empty()) {
+	int count = q.size();
+	while (count < N) {
 		int sz = q.size();
-		vector<int> temp;
 		for (int i = 1; i <= sz; i++) {
 			int node = q.front(); q.pop();
-			temp.push_back(node);
 			for (int child : adj[node]) {
 				degree[child]--;
 				if (degree[child] == 1) {
@@ -46,10 +44,15 @@ int32_t main() {
 				}
 			}
 		}
-		answer.push_back(temp);
+		count += q.size();
 	}
 
-	sort(answer.back().begin(), answer.back().end());
-	for (int i : answer.back()) cout << i << ' ';
+	vector<int> answer;
+	while (!q.empty()) {
+		answer.push_back(q.front());
+		q.pop();
+	}
+	sort(answer.begin(), answer.end());
+	for (int i : answer) cout << i << ' ';
 	return 0;
 }
