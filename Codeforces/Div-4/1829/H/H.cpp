@@ -17,7 +17,13 @@ int dp(int idx, int val, int taken, int MOD = 1e9 + 7) {
 void solve() {
 	cin >> N >> K;
 	for (int i = 0; i < N; i++) cin >> A[i];
-	memset(cache, -1, sizeof(cache));
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < 64; j++) {
+			for (int k = 0; k <= 1; k++) {
+				cache[i][j][k] = -1;
+			}
+		}
+	}
 	cout << dp(0, 0, 0) << '\n';
 }
 
