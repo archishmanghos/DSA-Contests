@@ -14,11 +14,16 @@ int32_t main() {
 		int K; cin >> K;
 		vector<int> temp = A;
 		int n = N;
-		n -= (K % 2 != n % 2);
+		if (K >= N) n -= (K % 2 != N % 2);
 
 		int j = K;
-		for (int i = 0; i < n; i++) temp[i] += j--;
+		for (int i = 0; i < min(n, K); i++) temp[i] += j--;
+
 		sort(temp.begin(), temp.end());
+		if (K < N) {
+			cout << temp[0] << ' ';
+			continue;
+		}
 		for (int i = N - 1; i > 0; i--) {
 			int steps = min((temp[i] - temp[i - 1]) * (N - i) * 2, j);
 			temp[i] -= (steps + (N - i) * 2 - 1) / (2 * (N - i));
