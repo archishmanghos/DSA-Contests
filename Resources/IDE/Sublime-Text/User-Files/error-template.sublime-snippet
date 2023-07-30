@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+
+#ifndef ONLINE_JUDGE
+#include <G:\DSA-Contests\archidebug.h>
+#else
+#define debug(x)
+#endif
+
+]]></content>
+  <tabTrigger>ert</tabTrigger>
+  <description>error template</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

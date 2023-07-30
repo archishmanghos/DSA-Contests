@@ -1,0 +1,13 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"word_wrap": "true",
+	"theme": "auto",
+	"font_face": "Menlo Regular",
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+}

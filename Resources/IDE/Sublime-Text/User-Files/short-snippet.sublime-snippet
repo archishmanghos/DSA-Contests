@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#include <bits/stdc++.h>
+
+#ifndef ONLINE_JUDGE
+#include <G:\DSA-Contests\archidebug.h>
+#else
+#define debug(x)
+#endif
+
+#define int long long
+using namespace std;
+
+int32_t main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    ${1:}
+    return 0;
+}
+]]></content>
+  <tabTrigger>st</tabTrigger>
+  <description>Short Snippet</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

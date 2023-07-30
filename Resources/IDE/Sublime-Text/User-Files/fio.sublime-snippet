@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+ofstream fout ("file.out");
+ifstream fin ("file.in");
+]]></content>
+  <tabTrigger>fio</tabTrigger>
+  <description>fileI/O</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

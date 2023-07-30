@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+
+template <typename num_t>
+using ordered_multiset = tree<num_t, null_type, less_equal<num_t>, rb_tree_tag, tree_order_statistics_node_update>;
+template <typename num_t>
+using ordered_set = tree<num_t, null_type, less<num_t>, rb_tree_tag, tree_order_statistics_node_update>;
+template <typename num_t>
+using ordered_multiset_dec = tree<num_t, null_type, greater_equal<num_t>, rb_tree_tag, tree_order_statistics_node_update>;
+template <typename num_t>
+using ordered_set_dec = tree<num_t, null_type, greater<num_t>, rb_tree_tag, tree_order_statistics_node_update>;
+]]></content>
+  <tabTrigger>pbds</tabTrigger>
+  <description>Policy Based DS</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

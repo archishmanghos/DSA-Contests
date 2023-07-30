@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the C++ syntax
+{
+	"font_face": "Menlo Regular",
+	"font-size": 12
+}

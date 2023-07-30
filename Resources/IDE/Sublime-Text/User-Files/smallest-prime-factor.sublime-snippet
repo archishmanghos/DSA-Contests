@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+int mxn = 1e5 + 7;
+int spf[mxn];
+memset(spf, -1, sizeof(spf));
+spf[1] = 1;
+for (int i = 2; i < mxn; i++) {
+	if (spf[i] == -1) {
+		spf[i] = i;
+			for (int j = 2 * i; j < mxn; j += i) spf[j] = i;
+	}
+}
+]]></content>
+  <tabTrigger>spf</tabTrigger>
+  <description>smallest prime factor</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

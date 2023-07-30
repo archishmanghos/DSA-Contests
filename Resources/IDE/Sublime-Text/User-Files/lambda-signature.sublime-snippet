@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+function<int(int)>
+]]></content>
+  <tabTrigger>lambda</tabTrigger>
+  <description>lambda signature</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

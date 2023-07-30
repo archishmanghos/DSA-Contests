@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+string integerToString (int x) {
+	if (x == 0) return "0";
+	string answer = "";
+	while (x) {
+		answer += (x % 10) + '0';
+		x /= 10;
+	}
+
+	reverse(answer.begin(), answer.end());
+	return answer;
+}
+]]></content>
+  <tabTrigger>IntToStr</tabTrigger>
+  <description>Integer To String</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

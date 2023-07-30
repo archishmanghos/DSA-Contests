@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the JSON syntax
+{
+	"font-face": "Menlo-Regular",
+	"font_size": 13,
+}

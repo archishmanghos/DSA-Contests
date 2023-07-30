@@ -1,0 +1,44 @@
+<snippet>
+  <content><![CDATA[
+class DSU {
+    vector<int> size, parent;
+    int n;
+
+    int findParent(int node) {
+        if (node == parent[node]) return node;
+        return parent[node] = findParent(parent[node]);
+    }
+
+public:
+    DSU (int n) {
+        this->n = n;
+        size.assign(n, 1);
+        parent.assign(n, 0);
+        for (int i = 0; i < n; i++) parent[i] = i;
+    }
+
+    bool unionNode (int u, int v) {
+        int pu = findParent(u), pv = findParent(v);
+        if (pu == pv) return true;
+
+        if (size[pu] >= size[pv]) {
+            size[pu] += size[pv];
+            parent[pv] = pu;
+        } else {
+            size[pv] += size[pu];
+            parent[pu] = pv;
+        }
+
+        return false;
+    }
+
+    bool sameComponent(int u, int v) {
+        return findParent(u) == findParent(v);
+    }
+};
+]]></content>
+  <tabTrigger>dsu</tabTrigger>
+  <description>Disjoint Set Union</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
