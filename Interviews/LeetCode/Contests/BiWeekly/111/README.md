@@ -1,4 +1,4 @@
-<h2>2824. Count Pairs Whose Sum is Less than Target < / h2 >
+<h2>2824. Count Pairs Whose Sum is Less than Target </h2 >
 
 [Link to Problem](https://leetcode.com/contest/biweekly-contest-111/problems/count-pairs-whose-sum-is-less-than-target/)
 
