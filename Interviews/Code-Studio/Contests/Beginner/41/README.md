@@ -1,16 +1,16 @@
 # Code Studio Beginner Contest 41
 
-> *Stats Corner*
+> **Stats Corner**
 >
-> *Date* -> August 23, 2023
+> **Date** -> August 23, 2023
 >
-> *Rank* -> 7
-> *Participants / Showed Interest* -> 9002
+> **Rank** -> 7
+> **Participants / Showed Interest** -> 9002
 >
-> *Points* -> 240
-> *Maximum Points* -> 240
+> **Points** -> 240
+> **Maximum Points** -> 240
 >
-> *Remarks* -> C is pure math, D is good.
+> **Remarks** -> C is pure math, D is good.
 
 <h2>Sequence Query </h2>
 
