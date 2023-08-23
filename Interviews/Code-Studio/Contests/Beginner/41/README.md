@@ -5,9 +5,11 @@
 > **Date** -> August 23, 2023
 >
 > **Rank** -> 7
+>
 > **Participants / Showed Interest** -> 9002
 >
 > **Points** -> 240
+>
 > **Maximum Points** -> 240
 >
 > **Remarks** -> C is pure math, D is good.
