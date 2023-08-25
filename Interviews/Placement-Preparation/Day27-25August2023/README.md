@@ -71,7 +71,7 @@ public class LC128 {
 
 <h2>271. Encode and Decode Strings / 659 · Encode and Decode Strings </h2>
 
-[Link to Problem if Rich](https://leetcode.com/problems/encode-and-decode-strings/)
+[Link to Problem if Rich](https://leetcode.com/problems/encode-and-decode-strings/)<br>
 [Link to Problem if Poor](https://www.lintcode.com/problem/659/)
 
 ```java
