@@ -1,4 +1,4 @@
-<h2>97. Interleaving String</h2>
+<h2>97. Interleaving String </h2>
 
 [Link to Problem](https://leetcode.com/problems/interleaving-string/description/)
 
@@ -31,6 +31,37 @@ class Solution {
 
         int answer = dp(0, 0, 0, s1, s2, s3, cache);
         return answer == 1;
+    }
+}
+
+```
+
+<br>
+<br>
+
+<h2>128. Longest Consecutive Sequence </h2>
+
+[Link to Problem](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+
+```java
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class LC128 {
+    public int longestConsecutive(int[] nums) {
+        Map<Integer, Integer> mp = new HashMap<>();
+        for (int num : nums) mp.put(num, 1);
+        int answer = 0;
+        for (int num : nums) {
+            if (mp.get(num) == 1 && mp.get(num + 1) == null) {
+                int k = num;
+                while (mp.get(k) != null && mp.get(k) != 0) k--;
+                answer = Math.max(answer, num - k);
+            }
+        }
+
+        return answer;
     }
 }
 
