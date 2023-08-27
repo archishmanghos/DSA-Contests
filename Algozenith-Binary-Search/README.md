@@ -6,6 +6,8 @@
 
 ```c++
 
+// c++
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -40,6 +42,8 @@ int32_t main() {
 ```
 
 ```java
+
+// java
 
 package Algozenith.Binary_Search;
 
