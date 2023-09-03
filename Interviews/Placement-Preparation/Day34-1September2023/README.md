@@ -152,3 +152,31 @@ public class LC49 {
 ```
 
 </details>
+
+<br>
+<br>
+
+<h2>1. Two Sum</h2>
+
+[Link to Problem](https://leetcode.com/problems/two-sum)
+
+<details><summary>Codes</summary>
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class LC1 {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> index = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (index.get(target - nums[i]) != null) return new int[] {index.get(target - nums[i]), i};
+            index.put(nums[i], i);
+        }
+
+        return new int[] { -1};
+    }
+}
+```
+
+</details>
