@@ -1,9 +1,9 @@
 ### Please try to solve the problems first before seeing the solution. This repository contains clean codes. Enjoy!
 
-<details><summary>Click Here</summary>
-
 <details><summary>Arrays & Hashing</summary>
 
+<p><a href="#1.1">1. Contains Duplicate</a></p>
+<p><a href="#1.2">2. Valid Anagram</a></p>
 <p><a href="#1.3">3. Two Sum</a></p>
 <p><a href="#1.4">4. Group Anagrams</a></p>
 <p><a href="#1.5">5. Top K Frequent Elements</a></p>
@@ -14,9 +14,65 @@
 
 </details>
 
+<h5 id="#1.1">1. Contains Duplicate</h5>
+
+[Link to Problem](https://leetcode.com/problems/contains-duplicate)
+
+<details><summary>Codes</summary>
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class LC217 {
+    public boolean containsDuplicate(int[] nums) {
+        Map<Integer, Integer> mp = new HashMap<>();
+        for (int i : nums) {
+            if (mp.get(i) != null) return true;
+            mp.put(i, 1);
+        }
+
+        return false;
+    }
+}
+```
+
 </details>
 
-<h2 id="#1.3">3. Two Sum</h2>
+<br>
+<br>
+
+<h5 id="#1.2">2. Valid Anagram</h5>
+
+[Link to Problem](https://leetcode.com/problems/valid-anagram)
+
+<details><summary>Codes</summary>
+
+```java
+public class LC242 {
+    public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) return false;
+        int[] count = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            count[(int) s.charAt(i) - 97]++;
+            count[(int) t.charAt(i) - 97]--;
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (count[i] != 0) return false;
+        }
+
+        return true;
+    }
+}
+```
+
+</details>
+
+<br>
+<br>
+
+<h5 id="#1.3">3. Two Sum</h5>
 
 [Link to Problem](https://leetcode.com/problems/two-sum)
 
@@ -44,7 +100,7 @@ public class LC1 {
 <br>
 <br>
 
-<h2 id="1.4">4. Group Anagrams</h2>
+<h5 id="1.4">4. Group Anagrams</h5>
 
 [Link to Problem](https://leetcode.com/problems/group-anagrams)
 
@@ -94,7 +150,7 @@ public class LC49 {
 <br>
 <br>
 
-<h2 id="1.5">5. Top K Frequent Elements</h2>
+<h5 id="1.5">5. Top K Frequent Elements</h5>
 
 [Link to Problem](https://leetcode.com/problems/top-k-frequent-elements/)
 
@@ -136,7 +192,7 @@ public class LC347 {
 <br>
 <br>
 
-<h2 id="1.6">6. Product of Array Except Self</h2>
+<h5 id="1.6">6. Product of Array Except Self</h5>
 
 [Link to Problem](https://leetcode.com/problems/product-of-array-except-self/)
 
@@ -170,7 +226,7 @@ public class LC238 {
 <br>
 <br>
 
-<h2 id="1.7">7. Valid Sudoku</h2>
+<h5 id="1.7">7. Valid Sudoku</h5>
 
 [Link to Problem](https://leetcode.com/problems/valid-sudoku/)
 
@@ -213,7 +269,7 @@ public class LC36 {
 <br>
 <br>
 
-<h2 id="1.8">8. Encode and Decode Strings</h2>
+<h5 id="1.8">8. Encode and Decode Strings</h5>
 
 [Link to Problem](https://leetcode.com/problems/encode-and-decode-strings/)
 
@@ -270,7 +326,7 @@ public class LC271 {
 <br>
 <br>
 
-<h2 id="1.9">9. Longest Consecutive Sequence</h2>
+<h5 id="1.9">9. Longest Consecutive Sequence</h5>
 
 [Link to Problem](https://leetcode.com/problems/longest-consecutive-sequence/)
 
