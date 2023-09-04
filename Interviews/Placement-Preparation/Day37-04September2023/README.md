@@ -30,3 +30,33 @@ public class LC141 {
 ```
 
 </details>
+
+<br>
+<br>
+
+<h2>242. Valid Anagram</h2>
+
+[Link to Problem](https://leetcode.com/problems/valid-anagram)
+
+<details><summary>Codes</summary>
+
+```java
+public class LC242 {
+    public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) return false;
+        int[] count = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            count[(int) s.charAt(i) - 97]++;
+            count[(int) t.charAt(i) - 97]--;
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (count[i] != 0) return false;
+        }
+
+        return true;
+    }
+}
+```
+
+</details>
