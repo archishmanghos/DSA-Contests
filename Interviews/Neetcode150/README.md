@@ -13,6 +13,16 @@
 <p><a href="#1.9">9. Longest Consecutive Sequence</a></p>
 
 </details>
+<br>
+<br>
+<details><summary>Two Pointers</summary>
+
+<p><a href="#2.5">5. Trapping Rain Water</a></p>
+
+</details>
+<br>
+<br>
+<br>
 
 <h5 id="#1.1">1. Contains Duplicate</h5>
 
@@ -358,3 +368,34 @@ public class LC128 {
 
 <br>
 <br>
+<br>
+<br>
+
+<h5 id="#2.5">5. Trapping Rain Water</h5>
+
+[Link to Problem](https://leetcode.com/problems/trapping-rain-water)
+
+<details><summary>Codes</summary>
+
+```java
+class LC42 {
+    public int trap(int[] height) {
+        int water_trapped = 0, i = 0, j = height.length - 1, maxL = height[0], maxR = height[height.length - 1];
+        while (i < j) {
+            if (maxL <= maxR) {
+                i++;
+                water_trapped += Math.max(maxL - height[i], 0);
+                maxL = Math.max(maxL, height[i]);
+            } else {
+                j--;
+                water_trapped += Math.max(maxR - height[j], 0);
+                maxR = Math.max(maxR, height[j]);
+            }
+        }
+
+        return water_trapped;
+    }
+}
+```
+
+</details>
