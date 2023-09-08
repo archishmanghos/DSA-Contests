@@ -26,3 +26,29 @@ public class LC118 {
 ```
 
 </details>
+
+<br>
+<br>
+
+<h2>11. Container With Most Water</h2>
+
+[Link to Problem](https://leetcode.com/problems/container-with-most-water)
+
+<details><summary>Codes</summary>
+
+```java
+public class LC11 {
+    public int maxArea(int[] height) {
+        int i = 0, j = height.length - 1, answer = 0;
+        while (i < j) {
+            answer = Math.max(answer, Math.min(height[i], height[j]) * (j - i));
+            if (height[i] <= height[j]) i++;
+            else j--;
+        }
+
+        return answer;
+    }
+}
+```
+
+</details>
