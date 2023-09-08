@@ -17,6 +17,10 @@
 <br>
 <details><summary>Two Pointers</summary>
 
+<p><a href="#2.1">1. Container With Most Water</a></p>
+<p><a href="#2.2">2. 3Sum</a></p>
+<p><a href="#2.3">3. Two Sum II - Input Array Is Sorted</a></p>
+<p><a href="#2.4">4. Valid Palindrome</a></p>
 <p><a href="#2.5">5. Trapping Rain Water</a></p>
 
 </details>
