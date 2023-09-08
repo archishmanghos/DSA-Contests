@@ -17,10 +17,10 @@
 <br>
 <details><summary>Two Pointers</summary>
 
-<p><a href="#2.1">1. Container With Most Water</a></p>
-<p><a href="#2.2">2. 3Sum</a></p>
-<p><a href="#2.3">3. Two Sum II - Input Array Is Sorted</a></p>
-<p><a href="#2.4">4. Valid Palindrome</a></p>
+<p><a href="#2.1">1. Valid Palindrome</a></p>
+<p><a href="#2.2">2. Two Sum II - Input Array Is Sorted</a></p>
+<p><a href="#2.3">3. 3Sum</a></p>
+<p><a href="#2.4">4. Container With Most Water</a></p>
 <p><a href="#2.5">5. Trapping Rain Water</a></p>
 
 </details>
@@ -375,23 +375,27 @@ public class LC128 {
 <br>
 <br>
 
-<h5 id="2.1">1. Container With Most Water</h5>
+<h5 id="2.1">1. Valid Palindrome</h5>
 
-[Link to Problem](https://leetcode.com/problems/container-with-most-water)
+[Link to Problem](https://leetcode.com/problems/valid-palindrome)
 
 <details><summary>Codes</summary>
 
 ```java
-public class LC11 {
-    public int maxArea(int[] height) {
-        int i = 0, j = height.length - 1, answer = 0;
-        while (i < j) {
-            answer = Math.max(answer, Math.min(height[i], height[j]) * (j - i));
-            if (height[i] <= height[j]) i++;
-            else j--;
+public class LC125 {
+    public boolean isPalindrome(String s) {
+        StringBuilder str = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char ch = Character.toLowerCase(s.charAt(i));
+            if ((ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9')) str.append(ch);
         }
 
-        return answer;
+        int i = 0, j = str.length() - 1;
+        while (i < j) {
+            if (str.charAt(i++) != str.charAt(j--)) return false;
+        }
+
+        return true;
     }
 }
 ```
@@ -401,7 +405,34 @@ public class LC11 {
 <br>
 <br>
 
-<h5 id="2.2">2. 3Sum</h5>
+<h5 id="2.2">2. Two Sum II - Input Array Is Sorted</h5>
+
+[Link to Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
+
+<details><summary>Codes</summary>
+
+```java
+public class LC167 {
+    public int[] twoSum(int[] numbers, int target) {
+        int i = 0, j = numbers.length - 1;
+        while (i < j) {
+            int sum = numbers[i] + numbers[j];
+            if (sum == target) return new int[] {i + 1, j + 1};
+            if (sum < target) i++;
+            else j--;
+        }
+
+        return new int[] { -1};
+    }
+}
+```
+
+</details>
+
+<br>
+<br>
+
+<h5 id="2.3">3. 3Sum</h5>
 
 [Link to Problem](https://leetcode.com/problems/3sum)
 
@@ -451,54 +482,23 @@ public class LC15 {
 <br>
 <br>
 
-<h5 id="2.3">3. Two Sum II - Input Array Is Sorted</h5>
+<h5 id="2.4">4. Container With Most Water</h5>
 
-[Link to Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
+[Link to Problem](https://leetcode.com/problems/container-with-most-water)
 
 <details><summary>Codes</summary>
 
 ```java
-public class LC167 {
-    public int[] twoSum(int[] numbers, int target) {
-        int i = 0, j = numbers.length - 1;
+public class LC11 {
+    public int maxArea(int[] height) {
+        int i = 0, j = height.length - 1, answer = 0;
         while (i < j) {
-            int sum = numbers[i] + numbers[j];
-            if (sum == target) return new int[] {i + 1, j + 1};
-            if (sum < target) i++;
+            answer = Math.max(answer, Math.min(height[i], height[j]) * (j - i));
+            if (height[i] <= height[j]) i++;
             else j--;
         }
 
-        return new int[] { -1};
-    }
-}
-```
-
-</details>
-
-<br>
-<br>
-
-<h5 id="2.4">4. Valid Palindrome</h5>
-
-[Link to Problem](https://leetcode.com/problems/valid-palindrome)
-
-<details><summary>Codes</summary>
-
-```java
-public class LC125 {
-    public boolean isPalindrome(String s) {
-        StringBuilder str = new StringBuilder();
-        for (int i = 0; i < s.length(); i++) {
-            char ch = Character.toLowerCase(s.charAt(i));
-            if ((ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9')) str.append(ch);
-        }
-
-        int i = 0, j = str.length() - 1;
-        while (i < j) {
-            if (str.charAt(i++) != str.charAt(j--)) return false;
-        }
-
-        return true;
+        return answer;
     }
 }
 ```
