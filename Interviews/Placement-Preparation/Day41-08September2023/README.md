@@ -102,3 +102,30 @@ public class LC15 {
 ```
 
 </details>
+
+<br>
+<br>
+
+<h2>167. Two Sum II - Input Array Is Sorted</h2>
+
+[Link to Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
+
+<details><summary>Codes</summary>
+
+```java
+public class LC167 {
+    public int[] twoSum(int[] numbers, int target) {
+        int i = 0, j = numbers.length - 1;
+        while (i < j) {
+            int sum = numbers[i] + numbers[j];
+            if (sum == target) return new int[] {i + 1, j + 1};
+            if (sum < target) i++;
+            else j--;
+        }
+
+        return new int[] { -1};
+    }
+}
+```
+
+</details>
