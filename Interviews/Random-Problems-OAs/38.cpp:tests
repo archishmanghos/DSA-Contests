@@ -1,0 +1,41 @@
+[
+	{
+		"correct_answers":
+		[
+			"2"
+		],
+		"test": "7 6\n0 1\n1 2\n2 0\n1 4\n4 5\n4 6\n"
+	},
+	{
+		"correct_answers":
+		[
+			"2"
+		],
+		"test": "4 3\n0 1\n1 2\n2 3\n"
+	},
+	{
+		"correct_answers":
+		[
+			"2"
+		],
+		"test": "7 5\n0 1\n1 2\n2 3\n4 5\n5 6\n",
+		"uncorrect_answers":
+		[
+			"answer 1\nnode 0\nnode 3\nnode 4\nnode 6\n(int)q.size() 3\nanswer 2\nnode 1\nnode 2\nnode 5\n(int)q.size() 0\n2"
+		]
+	},
+	{
+		"correct_answers":
+		[
+			"2"
+		],
+		"test": "7 6\n0 1\n1 2\n2 0\n1 4\n4 5\n4 6\n"
+	},
+	{
+		"correct_answers":
+		[
+			"0"
+		],
+		"test": "4 4\n0 1\n1 2\n2 3\n3 0\n"
+	}
+]
