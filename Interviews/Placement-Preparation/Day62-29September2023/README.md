@@ -158,3 +158,28 @@ public class BT_bottom_view {
 ```
 
 </details>
+
+<br>
+<br>
+
+<h2>896. Monotonic Array</h2>
+
+[Link to Problem](https://leetcode.com/problems/monotonic-array)
+
+<details><summary>Codes</summary>
+
+```java
+public class LC896 {
+    public boolean isMonotonic(int[] nums) {
+        boolean incr = true, decr = true;
+        for (int i = 1; i < nums.length; i++) {
+            incr &= nums[i] >= nums[i - 1];
+            decr &= nums[i] <= nums[i - 1];
+        }
+
+        return incr || decr;
+    }
+}
+```
+
+</details>
