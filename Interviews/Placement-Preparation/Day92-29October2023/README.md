@@ -34,3 +34,30 @@ public class P5SA012 {
 ```
 
 </details>
+
+<br>
+<br>
+
+<h2>121. Best Time to Buy and Sell Stock</h2>
+
+[Link to Problem]https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+
+<details><summary>Code</summary>
+
+```java
+package striver_sde_sheet.array1;
+
+public class P6SBS {
+    public int maxProfit(int[] prices) {
+        int minStockPrice = prices[0], profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            profit = Math.max(profit, prices[i] - minStockPrice);
+            minStockPrice = Math.min(minStockPrice, prices[i]);
+        }
+
+        return profit;
+    }
+}
+```
+
+</details>
